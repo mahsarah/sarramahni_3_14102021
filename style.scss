@@ -625,20 +625,30 @@ header{
     &__abouTitre{
         display: flex;
         h1{
-           // font-family: 'shrikhandregular'; 
-          height: 70px;
-           margin-left: 20px;
+           //font-family: 'shrikhandregular'; 
+          height: 60px;
+           margin-left: 5px;
           display: grid;
           align-items: center;
-          width: 50%;
+          width: 75%;
+          @include  tablette{
+            width: 55%;
+            margin-left: 40px; 
+          }
+          @include tablletp{
+            width: 47%;   
+          }
+          @include tablletmpx{
+            width: 30%;   
+          }
           @include ordinataurp{
-            width: 20%;
+            width: 18%;
             margin-left: 40px;
           } 
         }
         .farher{
             height: 60px;
-            width: 30%;
+            width: 10%;
             margin-top: 20px;
             margin-left: 30px;
             font-size: 25px;
@@ -646,6 +656,7 @@ header{
             @include ordinataurp{
               width:10%;
               } 
+
 
         }
     }
@@ -666,7 +677,6 @@ header{
             grid-gap:15px;
         }
         &__titre{
-           
             height: 45px;
             width: 15%;
             margin-top: -35px;
