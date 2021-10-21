@@ -1,0 +1,898 @@
+@import 'variable';
+@import 'buttons';
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('shrikhand-regular-webfont.woff2') format('woff2'),
+         url('shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    margin-right: 10px;
+    margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+a{
+    text-decoration: none;
+    color: $blackF-color;
+}
+header{
+.navfood{
+        display: grid;
+         grid-template-columns:100%;
+         margin-top: 20px; 
+        &__logo{
+         height: 40px;
+          grid-template-columns:55%;
+        @include  tablette{
+            grid-template-columns:30%;
+         }
+         @include tablletp {
+             grid-template-columns: 25%;
+         }
+         @include tablletm{
+            grid-template-columns: 25%;
+         }
+         @include tablletmp{
+            grid-template-columns: 20%;
+         }
+          @include ordinataurp{
+            grid-template-columns: 15%;   
+          }
+          @include gridbutton;
+          border-bottom:2px solid $boreder-color;
+          .logofod{
+            width:80%;
+            }
+        }
+        &__maps{
+           background-color: darken($primary-color, 8%);
+            grid-template-columns:10% 50%;
+            @include gridbutton;
+            @include tablletmp{
+                grid-template-columns:5% 50%;   
+            }
+        }
+        &__reservez{
+            background-color: $primary-color ;
+            height: 260px;
+            grid-template-columns: 100%;
+           @include gridbutton; 
+           h1{
+               margin-top:-40px ;
+               text-align: center;
+               grid-template-columns: 70%;
+                @include gridbutton;
+            }
+            p{
+                text-align: center;
+                @include gridbutton;
+                
+            }
+          a{
+            &:hover{
+                transform: scale(1.1);
+              }  
+            @include flexbutton;
+            @include  tablette {
+               width: 45% ;
+               margin-left: 100px; 
+            }
+            @include tablletp{
+                width: 37% ;
+                margin-left: 160px;
+            }
+            @include tablletmpx{
+                width: 33%; 
+                margin-left: 230px;
+            }
+           @include tablletmp{
+            width: 20%;  
+            margin-left:380px;
+           }
+           @include ordinataurp{
+            margin-left:450px; 
+           }
+           @include ordinataurmax{
+            margin-left:500px; 
+           }
+           @include ordinataurmax1{
+            margin-left:600px;    
+           }
+            grid-template-columns: 100%;
+            width: 59%;
+            margin-left: 60px;
+            margin-top: 30px;
+            color: $body-color;
+           }
+       }
+    }
+   .fonct{
+        display: grid;
+       grid-template-columns: 1frs;
+       grid-gap:15px;
+      
+        &__boutuon{
+            
+            @include flexbutton;
+            .number{
+                @include flexbutton;
+                @include fonctionnement;
+                 @include tablette{
+                   width: 7%;
+                   left: 35px;
+                } 
+                @include tablletp{
+                    width: 6%;
+                    left:40px;
+                    height: 34px;
+                }
+                @include tablletm{
+                    width: 6%;
+                    left: 50px;
+                    height: 38px;  
+                }
+                @include tablletmpx{
+                    left: 65px; 
+                    height: 43px; 
+                }
+                @include tablletmpxy{
+                    width: 5%;
+                    left:130px; 
+                    height: 43px; 
+                }
+                @include  tablletmp{
+                    width: 4.5%;
+                    left:170px; 
+                    height: 44px; 
+                }
+                @include tablletmpsas{
+                    width: 4.5%;
+                    left:300px; 
+                    height: 44px; 
+                }
+                @include  ordinataurp{
+                     display: none;
+                 }
+               
+            }
+            .chois {
+                &:hover{
+                    transform: scale(1.1);
+                  }
+                .icon{
+                    color: $icon-color; 
+                   }
+                @include gridbutton;
+                @include choisy; 
+                @include tablletp{
+                    grid-template-columns: 13% 60%;
+                    width:60%;
+                    margin-left: -120px;
+                }
+                @include tablletmpxy{
+                    width:50%;  
+                }
+                @include  ordinataurp{
+                   width:30%
+                }
+           }
+       }
+       &__comp{
+             @include flexbutton;
+             .number2{
+              @include fonctionnement; 
+              @include flexbutton;
+              @include tablette{
+               width: 7%;
+               left: 35px;
+               }
+               @include tablletp{
+                width: 6%;
+                 left:40px;
+                 height: 34px;
+                }
+                @include tablletm{
+                    width: 6%;
+                    left: 50px;
+                    height: 38px;  
+                }
+                @include tablletmpx{
+                    left: 65px; 
+                    height: 43px; 
+                }
+                @include tablletmpxy{
+                    width: 5%;
+                    left: 130px; 
+                    height: 43px; 
+                }
+                @include  tablletmp{
+                    width: 4.5%;
+                    left:170px; 
+                    height: 44px; 
+                }
+                @include  ordinataurp{
+                   display: none;
+                }
+               
+            }
+            
+         }
+           .chois2{
+              &:hover{
+                transform: scale(1.1);
+                 }
+               .icon2{
+                color: $icon-color; 
+                }
+                @include gridbutton;
+                @include choisy; 
+                @include tablletp{
+                grid-template-columns: 15% 60%;
+                width:60%;
+                margin-left: -120px;
+                 }   
+                  @include tablletmpxy{
+                  width:50%;  
+                  }
+                  @include  ordinataurp{
+                    width:30%
+                 }
+        }
+        &__degu{
+            @include flexbutton;
+            .number3{
+                @include fonctionnement; 
+                @include flexbutton;
+                @include tablette{
+                 width: 7%;
+                 left: 35px;
+                 }
+                 @include tablletp{
+                    width: 6%;
+                     left:40px;
+                     height: 34px;
+                } 
+                @include tablletm{
+                    width: 6%;
+                    left: 50px;
+                    height: 38px;  
+                }
+                @include tablletmpx{
+                    left: 65px; 
+                    height: 43px; 
+                }
+                @include tablletmpxy{
+                    width: 5%;
+                    left: 130px; 
+                    height: 43px; 
+                }
+                @include  tablletmp{
+                   width: 4.5%;
+                   left:170px;
+                    height: 44px; 
+                   //display: none;
+                }
+                @include  ordinataurp{
+                    width: 3.5%;
+                   margin-left:180px;
+                }
+                @include tablletmpsas{
+                    width: 4%;
+                    margin-left:150px;
+                }
+                @include ordinataurp{
+                   display: none; 
+                }
+
+            }
+            .chois3{
+                &:hover{
+                    transform: scale(1.1);
+                  }
+                .icon3{
+                    color:$violet-color ; 
+                 }
+                @include gridbutton;
+             @include choisy3; 
+             @include tablletp{
+                grid-template-columns: 15% 60%;
+                width:60%;
+                margin-left: -120px;
+                }
+                @include tablletmpxy{
+                    width:50%;  
+                }
+                @include  ordinataurp{
+                    width:30%
+                 }
+                
+            }
+            
+        }
+      
+    }
+}
+.restaurant{
+    @include tablletp{
+       margin-right:35px ; 
+       margin-left: 35px; 
+       background-color: $primary-color;       
+    }
+    @include tablletm{
+        height: 750px;  
+    }
+    @include ordinataurp{
+        margin-right:150px;
+        margin-left: 150px;   
+    }
+    @include ordinataurmax{
+        height: 900px;
+     background-color: transparent;
+    }
+    background-color: $primary-color;
+    height: 1390px;
+    margin-top: 60px;
+    &__titre{
+        width: 60%;
+        height: 60px;
+        margin-top: 40px;
+        margin-left:40px ;
+        display: flex;
+        align-items: center;
+    }
+    .restimgages{
+        
+        @include gridbutton;
+         grid-template-columns: 90%;
+         grid-gap:15px;
+         @include tablletm{
+            grid-template-columns:45% 45%;
+         }
+         @include  tablletmp{
+            grid-template-columns:50% 50%;
+           margin-left: 15px;
+           margin-right:15px ;
+        }
+        @include ordinataurmax{
+            display: grid;
+            grid-template-columns: 40% 40%;
+            grid-gap:100px;
+        }
+       .img1{
+        &:hover{
+            transform: scale(1.1);
+            
+          }
+        .butonneuv{
+            @include greenbouton;
+            @include flexbutton;
+            @include tablette{
+                left: 260px; 
+            }
+            @include tablletm{
+                left: 200px;
+                width: 15%;
+            }
+            @include tablletmpxy{
+                left: 200px;
+                width: 15%;
+                
+            }
+            @include tablletmp{
+                  display: none;
+            }
+           
+           
+        }
+          @include images;
+           @include tablletmp{
+            height:300px;   
+           }
+           .wennington{
+                @include photos;
+               @include tablletmp{
+                height:200px;   
+               }
+           }
+           .infoaceil1{
+            @include imghefA ;
+               .infoaceil2{
+               @include infoaceilA;
+                  
+               }
+              .palette{
+               margin-top: 3px;
+              }
+             .Méni{
+               margin-top: -7px;
+             }
+           }
+        }
+       .img2{
+           &:hover{
+             transform: scale(1.1);
+           } 
+        .butonneuv{
+            @include greenbouton;
+           @include flexbutton;
+            @include tablette{
+                left: 260px; 
+            }
+            @include tablletm{
+                left: 410px;
+                width: 15%;
+            }
+            @include tablletmpx{
+                left: 490px;
+                width: 15%;
+            }
+            
+            @include tablletmpxy{
+                left: 630px; 
+                width: 12%;
+            }
+            @include tablletmp{
+                display: none;
+                left: 710px; 
+                width: 12%; 
+            }
+            @include tablletmpsas{
+                left: 530px; 
+                width: 12%; 
+            }
+            @include  ordinataurp{
+                margin-left:350px ;
+                width: 12%;
+            }
+
+        }
+             @include images;
+           
+             @include tablletmp{
+                height:300px;   
+               }
+            .unsplash{
+             @include photos;  
+               @include tablletmp{
+                height:200px;   
+               }
+            }
+            .imgnot2{
+                @include imghefA ;
+            .note{
+                margin-top: -5px;
+            }
+            .charonne{
+                margin-top: -7px; 
+            }
+            .infoaceil2{
+                @include infoaceilA;
+                 
+            }
+           }
+       }
+         .img3{
+            &:hover{
+                transform: scale(1.1);
+              } 
+              @include images;
+               @include tablletmp{
+                height:300px;   
+               }
+            .heftiba{
+                @include photos;
+            @include tablletmp{
+                height:200px;   
+               }
+            }
+            .imghef3{
+                @include imghefA ;
+            }
+            .francaise{
+                margin-top: -1px;   
+            }
+            .cité{
+                margin-top: -7px;
+            }
+            .infoaceil2{
+                @include infoaceilA;
+            }
+
+       }
+        .img4{
+            &:hover{
+                transform: scale(1.1);
+              } 
+            @include images;
+            @include tablletmp{
+              height:300px;   
+              }
+        .louis{
+            @include photos;
+            @include tablletmp{
+                height:200px;   
+               }  
+        }
+        .imgdélic2{
+            @include imghefA ;
+            .délice{
+                margin-top: -1px; 
+            }
+            .foli{
+                margin-top: -7px;  
+            }
+            .infoaceil2{
+                @include infoaceilA;
+            }
+        }
+       }
+    }
+}
+.omyfooter{
+     display: grid;
+     grid-template-columns:1fr;
+     height: 200px;
+     background-color:$black-color ;
+    @include  ordinataurmax{
+        grid-template-columns:80%;
+         @include gridbutton;
+    }
+    &__proposer{
+        
+      .logofod{
+         width: 38%;
+         margin-top: 20px;
+         margin-left:10px;
+         @include tablletmpx{
+            width: 20%;
+         }
+         @include tablletm{
+            width: 20%;   
+         }
+        
+       }
+      
+    }
+  
+    &__proprest{
+      @include proprestA;
+      .espace{
+          margin-left: 5px;
+        
+          width: 60%;
+        }
+    }
+    &__partenirmonleg{
+        @include proprestA;
+        margin-top: -20px;
+        .espace{
+            margin-left: 5px;
+        }
+    }
+    &__contact{
+        margin-top: -40px;
+        margin-left:10px;
+        color:$body-color ;
+       
+    }
+}
+
+
+/*--page about--*/
+header{
+    
+   .navfood{
+       .abouthef{
+           width: 100%;
+           height: 250px;
+           @include tablletm {
+            width: 50%;
+            height: 300px;
+            margin-left:170px;    
+           }
+          @include ordinataurp {
+            width: 50%;
+            height: 300px;
+            margin-left:300px; 
+          }
+          @include ordinataurmin{
+            width: 50%;  
+            margin-left:400px;
+            height: 400px
+          }
+         
+       }
+   }
+
+}
+
+.aboutRes{
+    background-color:$primary-color ;
+    height: 1150px;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: -70px;
+    position: relative;
+    @include ordinataurp{
+        height: 1000px;
+    }
+     @include ordinataurmin {
+        height: 1000px; 
+     }
+    &__abouTitre{
+        display: flex;
+        h1{
+           // font-family: 'shrikhandregular'; 
+          height: 70px;
+           margin-left: 20px;
+          display: grid;
+          align-items: center;
+          width: 50%;
+          @include ordinataurp{
+            width: 20%;
+            margin-left: 40px;
+          } 
+        }
+        .farher{
+            height: 60px;
+            width: 30%;
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 25px;
+            @include flexbutton;
+            @include ordinataurp{
+              width:10%;
+              } 
+
+        }
+    }
+    .entre{
+        
+         @include  gridbutton;
+        grid-template-columns: 95%;
+        grid-gap:15px ;
+        @include  tablletm{
+            grid-template-columns: 60%; 
+            
+        }
+        @include ordinataurp {
+            grid-template-columns:30% 35%  ;   
+        }
+        @include ordinataurmin {
+            grid-template-columns:25% 28%  ; 
+            grid-gap:15px;
+        }
+        &__titre{
+           
+            height: 45px;
+            width: 15%;
+            margin-top: -35px;
+            border-bottom: 3px solid rgb(138, 236, 179) ;
+        }
+        &__tartare{
+            @include tartareA;
+            grid-template-columns: 83% 15%;
+            .acidpul{
+                
+                height: 50px;
+               .titart{
+                //font-family: 'shrikhandregular';
+                @include titarA;
+               }
+               p{
+                   @include  paragraph;  
+               }
+           }
+           .prix{
+            @include prisA ;
+           }
+        }
+        &__Veloute{
+            @include tartareA;
+            grid-template-columns: 83% 15%;
+            .Velout1{
+               
+                .titVelout{
+                   @include titarA;  
+                }
+                p{
+                    @include  paragraph;    
+                }
+            }
+            .prix{
+                @include prisA ; 
+            }
+        }
+        &__soupe{
+            @include tartareA;
+            grid-template-columns:86% 15%;
+            .soup1 {
+                .titsoupe {
+                    @include titarA; 
+                }
+                p{
+                    @include  paragraph;      
+                }
+                .rev{
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+           .chek{
+            @include flexbutton;
+            height: 65px;
+            border-radius: 0px 15px 15px 0px;
+            background-color: #99E2D0;
+            color: white;
+           }
+
+        }
+    }
+    .plats{
+        @include gridbutton;
+        grid-template-columns: 95%;
+        grid-gap:15px ;
+        @include  tablletm{
+            grid-template-columns: 60%; 
+           
+        }
+        @include ordinataurp {
+            grid-template-columns:30% 30%  ;
+            margin-top: 100px;   
+        }
+        @include ordinataurmin {
+            grid-template-columns:25% 25%   ; 
+            grid-gap: 30px;
+        }
+        &__titre{
+            height: 45px;
+            width: 15%;
+            margin-top: 20px;
+            border-bottom: 3px solid rgb(138, 236, 179) ;  
+        }
+        &__coquille{
+            @include tartareA;
+            grid-template-columns: 87% 15%;
+            
+            
+            .sainjac{
+              .titrsanj {
+                @include titarA;
+              } 
+              p{
+                @include  paragraph; 
+                font-size: 14px;
+              }
+            }
+            .prix{
+                @include prisA ;
+            }
+        }
+        &__magret{
+            @include tartareA;
+            grid-template-columns: 87% 15%;
+            .canard{
+                .titrcand{
+                    @include titarA;   
+                }
+                p{
+                    @include  paragraph;  
+                }
+            }
+            .prix{
+                @include prisA ;
+            }
+        }
+        &__pegeon{
+            @include tartareA;
+            grid-template-columns: 87% 15%; 
+            .pegeonils{
+                .titrpeg{
+                    @include titarA;   
+                }
+                p{
+                    @include  paragraph;  
+                }
+            }
+            .prix{
+                @include prisA ;
+            }
+        }
+    } 
+    .desser{
+        @include gridbutton;
+        grid-template-columns: 95%;
+        grid-gap:15px ;
+        @include  tablletm{
+            grid-template-columns: 60%; 
+           
+        }
+        @include ordinataurp {
+            grid-template-columns:30% 30%  ;
+            margin-top: 100px;   
+        }
+        @include ordinataurmin {
+            grid-template-columns:25% 25%  ; 
+            grid-gap: 30px;
+        }
+        &__titre{
+            height: 45px;
+            width: 15%;
+            margin-top: 20px;
+            border-bottom: 3px solid rgb(138, 236, 179) ;   
+        } 
+        &__petal{
+            @include tartareA;
+            grid-template-columns: 87% 15%;
+            .violette{
+                .titrviolet{
+                    @include titarA;    
+                }
+                p{
+                    @include  paragraph;    
+                }
+            }
+            .prix{
+                @include prisA ;
+            }
+        }
+        &__fondant{
+            @include tartareA;
+            grid-template-columns: 87% 15%;
+            .chocol{
+                .titrchoc{
+                    @include titarA; 
+                }
+                p{
+                    @include  paragraph;    
+                }
+               
+            }  
+            .prix{
+               @include prisA ;
+            }
+        }
+        &__mellfeulle{
+            @include tartareA;
+            grid-template-columns: 87% 15%;  
+            .crostil{
+                .titrcros{
+                    @include titarA; 
+                }
+                p{
+                    @include  paragraph;     
+                }
+            }
+            .prix{
+                @include prisA ;
+            } 
+        }
+    } 
+    .demande{
+        @include hoverT;
+        box-shadow:5px 5px 5px $boreder-color;
+       @include flexbutton;
+        width: 50%;
+        background-image: linear-gradient(to top,$violet-color,$pink-color);
+        height: 35px;
+        border-radius: 15px;
+        margin-left: 60px;
+        margin-top: 25px;
+        color: white;
+        @include  tablletm{
+            width: 25%;
+            margin-left:200px;
+        }
+        @include ordinataurp {
+            width: 20%;
+            margin-left:400px;
+            margin-top: 80px;
+        }
+        @include ordinataurmin{
+            width: 15%;
+        }
+    }
+}

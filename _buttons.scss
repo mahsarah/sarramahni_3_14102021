@@ -1,0 +1,177 @@
+@mixin gridbutton {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+@mixin proprestA{
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    color:$body-color ; 
+}
+@mixin hoverT {
+    &:hover{
+        transform: scale(1.1);
+     }
+}
+@mixin flexbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin images {
+    box-shadow : 1px 1px 10px rgb(134, 133, 133) ;
+    background-color:$body-color ; 
+    height:280px; 
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 10px;
+}
+@mixin photos{
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+@mixin greenbouton{
+    background-color:#99E2D0 ;
+    color: rgb(33, 112, 33);
+    width: 25%;
+    height: 30px;
+    position: absolute;
+    left: 210px;
+    z-index: 100;
+}
+.btn-primary{
+    display: inline-block;
+    border-radius: 20px;
+    padding:10px 15px;
+    background-image: linear-gradient(to top,$violet-color,$pink-color);
+}
+@mixin fonctionnement {
+    background-color: #9356DC;
+    width: 9%;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 25px;
+    z-index: 100;
+}
+@mixin choisy {
+    grid-template-columns: 13% 70%;
+    background-color:$primary-color; 
+     width:80% ;
+      height: 60px;
+      border-radius:15px ; 
+      box-shadow:5px 5px 5px $boreder-color;
+}
+@mixin choisy3 {
+    grid-template-columns: 13% 70%;
+    background-color:darken($primary-color, 8%);; 
+     width:80% ;
+      height: 60px;
+      border-radius:15px ; 
+      box-shadow:5px 5px 5px $boreder-color;
+}
+@mixin infoaceilA{
+    margin-right: 20px;
+   margin-top: 20px;
+   font-size: 20px; 
+}
+@mixin imghefA{
+    display: flex; 
+     justify-content: space-between;
+      margin-left: 10px;
+}
+
+@mixin tablette {
+ @media screen and (min-width:400px){
+    @content;
+ }
+}
+@mixin tablletp{
+    @media screen and (min-width:500px){
+        @content;
+     }  
+}
+@mixin tablletm{
+    @media screen and (min-width:600px){
+        @content;
+     }  
+}
+@mixin tablletmpx{
+    @media screen and (min-width:700px){
+        @content;
+     }     
+}
+@mixin tablletmpxy{
+    @media screen and (min-width:800px){
+        @content;
+     }     
+}
+
+@mixin tablletmp{
+    @media screen and (min-width:900px){
+        @content;
+     }     
+}
+@mixin tablletmpsas{
+    @media screen and (min-width:1199px){
+        @content;
+     }     
+}
+
+@mixin ordinataurp{
+    @media screen and (min-width:1200px){
+        @content;
+     }     
+}
+@mixin ordinataurmin{
+    @media screen and (min-width:1250px){
+        @content;
+     }   
+}
+@mixin ordinataurmax{
+    @media screen and (min-width:1300px){
+        @content;
+     }   
+}
+@mixin ordinataurmax1{
+    @media screen and (min-width:1400px){
+        @content;
+     }   
+}
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('shrikhand-regular-webfont.woff2') format('woff2'),
+         url('shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@mixin tartareA{
+    &:hover{
+        transform: scale(1.1);
+      }
+    box-shadow:5px 5px 5px $boreder-color;
+    background-color:rgb(255, 251, 251) ;
+    height: 65px;
+    border-radius: 15px 15px 15px 15px;
+    display: grid;
+   // grid-template-columns: 83% 15%;
+}
+@mixin titarA{
+    width: 90%;
+    margin-top: 6px;
+    margin-left: 7px; 
+}
+@mixin paragraph{
+    margin-top: -15px;
+    margin-left: 7px; 
+    font-size: 14px;
+}
+@mixin prisA{
+    height: 35px;
+    margin-top: 15px;
+}
+
+
