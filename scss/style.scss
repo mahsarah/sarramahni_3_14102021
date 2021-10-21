@@ -1,5 +1,6 @@
 @import 'variable';
 @import 'buttons';
+@import 'mixins';
 @font-face {
     font-family: 'shrikhandregular';
     src: url('shrikhand-regular-webfont.woff2') format('woff2'),
@@ -541,29 +542,21 @@ header{
         grid-template-columns:80%;
          @include gridbutton;
     }
-    &__proposer{
-        
-      .logofod{
-         width: 38%;
-         margin-top: 20px;
-         margin-left:10px;
-         @include tablletmpx{
-            width: 20%;
-         }
-         @include tablletm{
-            width: 20%;   
-         }
-        
-       }
-      
+    &__proposer{   
+     h3{
+         color:white;
+      font-family: 'shrikhandregular';
+      font-size: 30px
+      }
     }
   
     &__proprest{
       @include proprestA;
+      margin-top: -30px;
       .espace{
           margin-left: 5px;
-        
           width: 60%;
+         
         }
     }
     &__partenirmonleg{
@@ -625,7 +618,7 @@ header{
     &__abouTitre{
         display: flex;
         h1{
-           //font-family: 'shrikhandregular'; 
+          // font-family: 'shrikhandregular'; 
           height: 60px;
            margin-left: 5px;
           display: grid;

@@ -1100,22 +1100,10 @@ header .fonct__degu .chois3 .icon3 {
   }
 }
 
-.omyfooter__proposer .logofod {
-  width: 38%;
-  margin-top: 20px;
-  margin-left: 10px;
-}
-
-@media screen and (min-width: 700px) {
-  .omyfooter__proposer .logofod {
-    width: 20%;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .omyfooter__proposer .logofod {
-    width: 20%;
-  }
+.omyfooter__proposer h3 {
+  color: white;
+  font-family: 'shrikhandregular';
+  font-size: 30px;
 }
 
 .omyfooter__proprest {
@@ -1127,6 +1115,7 @@ header .fonct__degu .chois3 .icon3 {
           align-items: center;
   margin-left: 10px;
   color: #faf9f9;
+  margin-top: -30px;
 }
 
 .omyfooter__proprest .espace {
