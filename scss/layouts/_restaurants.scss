@@ -1,0 +1,207 @@
+/**
+ SECTION RESTAURANTS
+*/
+
+.restaurant{
+    @include tablletp{
+       margin-right:35px ; 
+       margin-left: 35px; 
+       background-color: $primary-color;       
+    }
+    @include tablletm{
+        height: 750px;  
+    }
+    @include ordinataurp{
+        margin-right:150px;
+        margin-left: 150px;   
+    }
+    @include ordinataurmax{
+        height: 900px;
+     background-color: transparent;
+    }
+    background-color: $primary-color;
+    height: 1390px;
+    margin-top: 60px;
+    &__titre{
+        width: 60%;
+        height: 60px;
+        margin-top: 40px;
+        margin-left:40px ;
+        display: flex;
+        align-items: center;
+    }
+    .restimgages{
+      
+        @include gridbutton;
+         grid-template-columns: 90%;
+         grid-gap:15px;
+         @include tablletm{
+            grid-template-columns:45% 45%;
+         }
+         @include  tablletmp{
+            grid-template-columns:50% 50%;
+           margin-left: 15px;
+           margin-right:15px ;
+        }
+        @include ordinataurmax{
+            display: grid;
+            grid-template-columns: 45% 45%;
+            grid-gap:100px;
+        }
+       .img1{
+          
+      
+        .butonneuv{
+            
+            @include greenbouton;
+            @include flexbutton;
+            @include tablette{
+                width: 20%;
+              
+            }
+            @include tablletm{
+              // margin-left: 100px;
+                width: 15%;
+            }
+           @include tablletmpxy{
+               
+                width: 10%;
+                
+            }
+        }
+          @include images;
+           @include tablletmp{
+            height:300px;   
+           }
+           .wennington{
+            position: relative;
+                @include photos;
+               @include tablletmp{
+                height:200px;   
+               }
+           }
+           .infoaceil1{
+               position: relative;
+            @include imghefA ;
+               .infoaceil2{
+               &:hover{
+                  background : linear-gradient(to top,$violet-color,$pink-color);
+                  
+               }
+              
+               @include infoaceilA;
+                  
+               }
+              .palette{
+               margin-top: 3px;
+              }
+             .Méni{
+               margin-top: -7px;
+             }
+           }
+        }
+       .img2{
+          
+        .butonneuv{
+            @include greenbouton;
+            @include flexbutton;
+            @include tablette{
+                width: 20%;
+               
+            }
+            @include tablletm{
+             
+                width: 15%;
+            }
+           @include tablletmpxy{
+               
+                width: 10%;
+                
+            }
+
+          
+        }
+             @include images;
+           
+             @include tablletmp{
+                height:300px;   
+               }
+            .unsplash{
+             position: relative;
+             @include photos;  
+               @include tablletmp{
+                height:200px;   
+               }
+            }
+            .imgnot2{
+
+                @include imghefA ;
+            .note{
+                margin-top: -5px;
+            }
+            .charonne{
+                margin-top: -7px; 
+            }
+            .infoaceil2{
+                @include infoaceilA;
+                
+            }
+            
+           }
+       }
+         .img3{
+            
+              @include images;
+               @include tablletmp{
+                height:300px;   
+               }
+            .heftiba{
+                @include photos;
+            @include tablletmp{
+                height:200px;   
+               }
+            }
+            .imghef3{
+                @include imghefA ;
+            }
+            .francaise{
+                margin-top: -1px;   
+            }
+            .cité{
+                margin-top: -7px;
+            }
+            .infoaceil2{
+                @include infoaceilA;
+                svg{
+                  padding: 5px;
+                }
+            }
+
+       }
+        .img4{
+           
+            @include images;
+            @include tablletmp{
+              height:300px;   
+              }
+        .louis{
+            @include photos;
+            @include tablletmp{
+                height:200px;   
+               }  
+        }
+        .imgdélic2{
+            @include imghefA ;
+            .délice{
+                margin-top: -1px; 
+            }
+            .foli{
+                margin-top: -7px;  
+            }
+            .infoaceil2{
+                @include infoaceilA;
+            }
+        }
+       }
+    }
+}

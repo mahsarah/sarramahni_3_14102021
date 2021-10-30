@@ -1,0 +1,58 @@
+
+@mixin tablette {
+    @media screen and (min-width:400px){
+       @content;
+    }
+   }
+   @mixin tablletp{
+       @media screen and (min-width:500px){
+           @content;
+        }  
+   }
+   @mixin tablletm{
+       @media screen and (min-width:600px){
+           @content;
+        }  
+   }
+   @mixin tablletmpx{
+       @media screen and (min-width:700px){
+           @content;
+        }     
+   }
+   @mixin tablletmpxy{
+       @media screen and (min-width:800px){
+           @content;
+        }     
+   }
+   
+   @mixin tablletmp{
+       @media screen and (min-width:900px){
+           @content;
+        }     
+   }
+   @mixin tablletmpsas{
+       @media screen and (min-width:1199px){
+           @content;
+        }     
+   }
+   
+   @mixin ordinataurp{
+       @media screen and (min-width:1200px){
+           @content;
+        }     
+   }
+   @mixin ordinataurmin{
+       @media screen and (min-width:1250px){
+           @content;
+        }   
+   }
+   @mixin ordinataurmax{
+       @media screen and (min-width:1300px){
+           @content;
+        }   
+   }
+   @mixin ordinataurmax1{
+       @media screen and (min-width:1400px){
+           @content;
+        }   
+   }

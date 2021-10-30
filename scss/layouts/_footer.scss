@@ -1,0 +1,55 @@
+.omyfooter{
+    display: grid;
+    grid-template-columns:1fr;
+    height: 200px;
+    background-color:$black-color ;
+   @include  ordinataurmax{
+       grid-template-columns:13% 20% 20% 24%;
+       grid-gap: 20px;
+        @include gridbutton;
+   }
+  
+   &__proposer{   
+    h3{
+
+        color:white;
+     font-family: 'shrikhandregular';
+     font-size: 30px
+     }
+   }
+ 
+   &__proprest{
+      
+    @include  ordinataurmax{
+        margin-top: 18px;
+    }
+     @include proprestA;
+     margin-top: -90px;
+     .espace{
+         margin-left: 5px;
+         width: 60%;
+        
+       }
+   }
+   &__partenirmonleg{
+       
+    @include  ordinataurmax{
+        margin-top: 18px;
+    }
+       @include proprestA;
+       margin-top: -65px;
+       .espace{
+           margin-left: 5px;
+       }
+   }
+   &__contact{
+   
+    @include  ordinataurmax{
+        margin-top: 18px;
+    }
+       margin-top: -50px;
+       margin-left:10px;
+       width: 40%;
+       color:$body-color ; 
+   }
+}
