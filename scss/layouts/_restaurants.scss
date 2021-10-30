@@ -84,12 +84,24 @@
                position: relative;
             @include imghefA ;
                .infoaceil2{
-               &:hover{
-                  background : linear-gradient(to top,$violet-color,$pink-color);
-                  
-               }
-              
                @include infoaceilA;
+               .hart1{
+             
+                margin-right: -8px;
+                opacity: 1;
+               } 
+               .hart1:hover{
+                 opacity: 0;
+               }
+               .hart2{
+                color:$pink-color ;
+                margin-left: -20px;
+                opacity: 0;
+               }
+               .hart2:hover{
+                   opacity: 1;
+                   font-size: 25px
+               }
                   
                }
               .palette{
@@ -137,15 +149,33 @@
 
                 @include imghefA ;
             .note{
-                margin-top: -5px;
+                margin-top: -6px;
             }
             .charonne{
                 margin-top: -7px; 
             }
             .infoaceil2{
-                @include infoaceilA;
-                
+               @include infoaceilA;
+               .hart1{
+             
+                margin-right: -8px;
+                opacity: 1;
+               } 
+               .hart1:hover{
+                 opacity: 0;
+               }
+               .hart2{
+                color:$pink-color ;
+                margin-left: -20px;
+                opacity: 0;
+               }
+               .hart2:hover{
+                   opacity: 1;
+                   font-size: 25px
+               }
             }
+           
+
             
            }
        }
@@ -172,9 +202,23 @@
             }
             .infoaceil2{
                 @include infoaceilA;
-                svg{
-                  padding: 5px;
-                }
+               .hart1{
+             
+                margin-right: -8px;
+                opacity: 1;
+               } 
+               .hart1:hover{
+                 opacity: 0;
+               }
+               .hart2{
+                color:$pink-color ;
+                margin-left: -20px;
+                opacity: 0;
+               }
+               .hart2:hover{
+                   opacity: 1;
+                   font-size: 25px
+               }
             }
 
        }
@@ -200,6 +244,23 @@
             }
             .infoaceil2{
                 @include infoaceilA;
+                .hart1{
+             
+                    margin-right: -8px;
+                    opacity: 1;
+                   } 
+                   .hart1:hover{
+                     opacity: 0;
+                   }
+                   .hart2{
+                    color:$pink-color ;
+                    margin-left: -20px;
+                    opacity: 0;
+                   }
+                   .hart2:hover{
+                       opacity: 1;
+                       font-size: 25px
+                   }
             }
         }
        }

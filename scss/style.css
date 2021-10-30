@@ -33,6 +33,10 @@ a {
 }
 
 .aboutRes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
   background-color: #f2f2f2;
   height: 1150px;
   border-radius: 30px 30px 0px 0px;
@@ -583,11 +587,16 @@ a {
   width: 50%;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
   background-image: linear-gradient(to top, #9356DC, #FF79DA);
-  height: 35px;
+  height: 38px;
   border-radius: 15px;
   margin-left: 60px;
   margin-top: 25px;
   color: white;
+}
+
+.aboutRes .demande:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media screen and (min-width: 600px) {
@@ -1467,9 +1476,24 @@ header .fonct__degu .chois3 .icon3 {
   font-size: 20px;
 }
 
-.restaurant .restimgages .img1 .infoaceil1 .infoaceil2:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
-  background: linear-gradient(to top, #9356DC, #FF79DA);
+.restaurant .restimgages .img1 .infoaceil1 .infoaceil2 .hart1 {
+  margin-right: -8px;
+  opacity: 1;
+}
+
+.restaurant .restimgages .img1 .infoaceil1 .infoaceil2 .hart1:hover {
+  opacity: 0;
+}
+
+.restaurant .restimgages .img1 .infoaceil1 .infoaceil2 .hart2 {
+  color: #FF79DA;
+  margin-left: -20px;
+  opacity: 0;
+}
+
+.restaurant .restimgages .img1 .infoaceil1 .infoaceil2 .hart2:hover {
+  opacity: 1;
+  font-size: 25px;
 }
 
 .restaurant .restimgages .img1 .infoaceil1 .palette {
@@ -1555,7 +1579,7 @@ header .fonct__degu .chois3 .icon3 {
 }
 
 .restaurant .restimgages .img2 .imgnot2 .note {
-  margin-top: -5px;
+  margin-top: -6px;
 }
 
 .restaurant .restimgages .img2 .imgnot2 .charonne {
@@ -1566,6 +1590,26 @@ header .fonct__degu .chois3 .icon3 {
   margin-right: 20px;
   margin-top: 20px;
   font-size: 20px;
+}
+
+.restaurant .restimgages .img2 .imgnot2 .infoaceil2 .hart1 {
+  margin-right: -8px;
+  opacity: 1;
+}
+
+.restaurant .restimgages .img2 .imgnot2 .infoaceil2 .hart1:hover {
+  opacity: 0;
+}
+
+.restaurant .restimgages .img2 .imgnot2 .infoaceil2 .hart2 {
+  color: #FF79DA;
+  margin-left: -20px;
+  opacity: 0;
+}
+
+.restaurant .restimgages .img2 .imgnot2 .infoaceil2 .hart2:hover {
+  opacity: 1;
+  font-size: 25px;
 }
 
 .restaurant .restimgages .img3 {
@@ -1619,8 +1663,24 @@ header .fonct__degu .chois3 .icon3 {
   font-size: 20px;
 }
 
-.restaurant .restimgages .img3 .infoaceil2 svg {
-  padding: 5px;
+.restaurant .restimgages .img3 .infoaceil2 .hart1 {
+  margin-right: -8px;
+  opacity: 1;
+}
+
+.restaurant .restimgages .img3 .infoaceil2 .hart1:hover {
+  opacity: 0;
+}
+
+.restaurant .restimgages .img3 .infoaceil2 .hart2 {
+  color: #FF79DA;
+  margin-left: -20px;
+  opacity: 0;
+}
+
+.restaurant .restimgages .img3 .infoaceil2 .hart2:hover {
+  opacity: 1;
+  font-size: 25px;
 }
 
 .restaurant .restimgages .img4 {
@@ -1672,6 +1732,26 @@ header .fonct__degu .chois3 .icon3 {
   margin-right: 20px;
   margin-top: 20px;
   font-size: 20px;
+}
+
+.restaurant .restimgages .img4 .imgdélic2 .infoaceil2 .hart1 {
+  margin-right: -8px;
+  opacity: 1;
+}
+
+.restaurant .restimgages .img4 .imgdélic2 .infoaceil2 .hart1:hover {
+  opacity: 0;
+}
+
+.restaurant .restimgages .img4 .imgdélic2 .infoaceil2 .hart2 {
+  color: #FF79DA;
+  margin-left: -20px;
+  opacity: 0;
+}
+
+.restaurant .restimgages .img4 .imgdélic2 .infoaceil2 .hart2:hover {
+  opacity: 1;
+  font-size: 25px;
 }
 
 a {
