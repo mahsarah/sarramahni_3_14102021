@@ -49,24 +49,28 @@
             grid-gap:100px;
         }
        .img1{
-          
-      
+         
+     
         .butonneuv{
-            
+            margin-left:130px;
             @include greenbouton;
             @include flexbutton;
             @include tablette{
-                width: 20%;
+                width: 30%;
               
             }
             @include tablletm{
-              // margin-left: 100px;
+             
                 width: 15%;
             }
            @include tablletmpxy{
                
                 width: 10%;
                 
+            }
+            @include ordinataurp{
+                width: 5%;
+                left: 185px;
             }
         }
           @include images;
@@ -81,7 +85,7 @@
                }
            }
            .infoaceil1{
-               position: relative;
+             
             @include imghefA ;
                .infoaceil2{
                @include infoaceilA;
@@ -115,10 +119,11 @@
        .img2{
           
         .butonneuv{
+            margin-left:130px;
             @include greenbouton;
             @include flexbutton;
             @include tablette{
-                width: 20%;
+                width: 30%;
                
             }
             @include tablletm{
@@ -127,8 +132,11 @@
             }
            @include tablletmpxy{
                
-                width: 10%;
-                
+                width: 10%;  
+            }
+            @include ordinataurp{
+                width: 5%;
+               // left:200px;
             }
 
           
@@ -138,12 +146,14 @@
              @include tablletmp{
                 height:300px;   
                }
+
             .unsplash{
              position: relative;
              @include photos;  
                @include tablletmp{
                 height:200px;   
                }
+              
             }
             .imgnot2{
 
