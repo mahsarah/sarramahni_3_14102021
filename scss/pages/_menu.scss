@@ -80,7 +80,7 @@
         }
         &__tartare{
             overflow-x: hidden;
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             .acidpul{
@@ -139,7 +139,7 @@
         }
 
         &__Veloute{
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             overflow-x: hidden;
