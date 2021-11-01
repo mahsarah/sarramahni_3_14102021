@@ -19,7 +19,7 @@
     &__abouTitre{
         display: flex;
         h1{
-           //font-family: 'shrikhandregular'; 
+         font-family: 'shrikhandregular';
           height: 60px;
            margin-left: 5px;
           display: grid;
@@ -79,12 +79,13 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;
         }
         &__tartare{
-          
+            overflow-x: hidden;
+            transition: transform width 1s ease-in-out;
             @include tartareA;
-            grid-template-columns: 83% 15%;
+            grid-template-columns: 85% 15%;
             .acidpul{
                 
-                height: 50px;
+                width: 100%;
                .titart{
                 //font-family: 'shrikhandregular';
                 @include titarA;
@@ -92,36 +93,93 @@
                p{
                    @include  paragraph;  
                }
+               .rev1{
+                display: flex;
+                justify-content: space-between; 
+                 }
            }
-           .prix{
-            @include prisA ;
+           .chek{
+            @include flexbutton;
+            height: 65px;
+            border-radius: 0px 15px 15px 0px;
+            background-color: #99E2D0;
+            color: white;
+            transform: translateX(100px);
+          
            }
+           &:hover {
+
+            .acidpul {
+                width: 90%;
+                .prix {
+                    transform: translateX(-10px);
+                }
+            }
+           .chek {
+               transform: translateX(0px);
+           }
+       }
+
+          
+           
         }
          
        
         &__soupe:hover i{
             transform: rotate(360deg);
             transition-duration: 0.5s; 
+        }
+        &__tartare:hover i{
+            transform: rotate(360deg);
+            transition-duration: 0.5s;    
         } 
-       
-       
+        &__Veloute:hover i{
+            transform: rotate(360deg);
+            transition-duration: 0.5s;    
+        }
 
         &__Veloute{
-           
+            transition: transform width 1s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
+            overflow-x: hidden;
             .Velout1{
-               
-                .titVelout{
+                 width: 100%;
+                 .titVelout{
                    @include titarA;  
-                }
-                p{
+                  }
+                  p{
                     @include  paragraph;    
-                }
+                  }
+           
+                .rev1{
+                display: flex;
+                justify-content: space-between; 
+                 }
             }
-            .prix{
-                @include prisA ; 
-            }
+            .chek{
+                @include flexbutton;
+                height: 65px;
+                border-radius: 0px 15px 15px 0px;
+                background-color: #99E2D0;
+                color: white;
+                transform: translateX(100px);
+              
+               }
+    
+               &:hover {
+    
+                    .Velout1 {
+                        width: 90%;
+                        .prix {
+                            transform: translateX(-10px);
+                        }
+                    }
+                   .chek {
+                       transform: translateX(0px);
+                   }
+               }
+
         }
         &__soupe{
            
@@ -154,7 +212,7 @@
           
            }
 
-           &:hover {
+         &:hover {
 
                 .soup1 {
                     width: 90%;
@@ -171,7 +229,19 @@
       
     }
     .plats{
-       
+        &__coquille:hover i{
+            transform: rotate(360deg);
+            transition-duration: 0.5s;  
+        }
+        &__magret:hover i{
+            transform: rotate(360deg);
+            transition-duration: 0.5s;   
+        }
+        &__pegeon:hover i{ 
+            transform: rotate(360deg);
+            transition-duration: 0.5s;  
+        }
+
         @include gridbutton;
         grid-template-columns: 95%;
         grid-gap:15px ;
@@ -194,6 +264,8 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;  
         }
         &__coquille{
+            overflow-x: hidden;
+            transition: transform width 1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;
             
@@ -206,12 +278,37 @@
                 @include  paragraph; 
                 font-size: 14px;
               }
+              .rev1{
+                display: flex;
+                justify-content: space-between;
+               }
             }
-            .prix{
-                @include prisA ;
+            
+            .chek{
+                @include flexbutton;
+                height: 65px;
+                border-radius: 0px 15px 15px 0px;
+                background-color: #99E2D0;
+                color: white;
+                transform: translateX(100px);
+              
             }
+            &:hover {
+
+                .sainjac{
+                    width: 90%;
+                    .prix {
+                        transform: translateX(-10px);
+                    }
+                }
+               .chek {
+                   transform: translateX(0px);
+               }
+           }
         }
         &__magret{
+            overflow-x: hidden;
+            transition: transform width 1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;
             .canard{
@@ -221,12 +318,39 @@
                 p{
                     @include  paragraph;  
                 }
+                .rev1{
+                    display: flex;
+                    justify-content: space-between;
+                 }
+
             }
-            .prix{
-                @include prisA ;
+            .chek{
+                @include flexbutton;
+                height: 65px;
+                border-radius: 0px 15px 15px 0px;
+                background-color: #99E2D0;
+                color: white;
+                transform: translateX(100px);
+              
             }
+            &:hover {
+
+                .canard{
+                    width: 90%;
+                    .prix {
+                        transform: translateX(-10px);
+                    }
+                }
+               .chek {
+                   transform: translateX(0px);
+               }
+           }
+            
+            
         }
         &__pegeon{
+            overflow-x: hidden;
+            transition: transform width 1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%; 
             .pegeonils{
@@ -236,14 +360,49 @@
                 p{
                     @include  paragraph;  
                 }
+                .rev1{
+                    display: flex;
+                    justify-content: space-between;
+                } 
             }
-            .prix{
-                @include prisA ;
-            }
+            .chek{
+                @include flexbutton;
+                height: 65px;
+                border-radius: 0px 15px 15px 0px;
+                background-color: #99E2D0;
+                color: white;
+                transform: translateX(100px);
+              
+            } 
+            &:hover {
+
+                .pegeonils{
+                    width: 90%;
+                    .prix{
+                        transform: translateX(-10px);
+                    }
+                }
+               .chek {
+                   transform: translateX(0px);
+               }
+           }
+             
         }
     } 
     .desser{
-       
+        &__petal:hover i{
+            transform: rotate(360deg);
+            transition-duration: 0.5s;  
+        }
+        &__fondant:hover i{
+            transform: rotate(360deg);
+            transition-duration: 0.5s;  
+        }
+        &__mellfeulle:hover i{
+            transform: rotate(360deg);
+            transition-duration: 0.5s; 
+        }
+
         @include gridbutton;
         grid-template-columns: 95%;
         grid-gap:15px ;
@@ -266,6 +425,8 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;   
         } 
         &__petal{
+            overflow-x: hidden;
+            transition: transform width 1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;
             .violette{
@@ -275,12 +436,37 @@
                 p{
                     @include  paragraph;    
                 }
+                .rev1{
+                    display: flex;
+                    justify-content: space-between;
+                } 
             }
-            .prix{
-                @include prisA ;
-            }
+            .chek{
+                @include flexbutton;
+                height: 65px;
+                border-radius: 0px 15px 15px 0px;
+                background-color: #99E2D0;
+                color: white;
+                transform: translateX(100px);
+              
+            } 
+            &:hover {
+
+                .violette{
+                    width: 90%;
+                    .prix{
+                        transform: translateX(-10px);
+                    }
+                }
+               .chek {
+                   transform: translateX(0px);
+               }
+           }
+           
         }
         &__fondant{
+            overflow-x: hidden;
+            transition: transform width 1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;
             .chocol{
@@ -290,13 +476,37 @@
                 p{
                     @include  paragraph;    
                 }
-               
-            }  
-            .prix{
-               @include prisA ;
-            }
+                .rev1{
+                    display: flex;
+                    justify-content: space-between;
+                }
+            } 
+            .chek{
+                @include flexbutton;
+                height: 65px;
+                border-radius: 0px 15px 15px 0px;
+                background-color: #99E2D0;
+                color: white;
+                transform: translateX(100px);
+              
+            } 
+            &:hover {
+
+                .chocol{
+                    width: 90%;
+                    .prix{
+                        transform: translateX(-10px);
+                    }
+                }
+               .chek {
+                   transform: translateX(0px);
+               }
+           }
+           
         }
         &__mellfeulle{
+            overflow-x: hidden;
+            transition: transform width 1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;  
             .crostil{
@@ -306,10 +516,33 @@
                 p{
                     @include  paragraph;     
                 }
+                .rev1{
+                    display: flex;
+                    justify-content: space-between;
+                } 
             }
-            .prix{
-                @include prisA ;
-            } 
+            .chek{
+                @include flexbutton;
+                height: 65px;
+                border-radius: 0px 15px 15px 0px;
+                background-color: #99E2D0;
+                color: white;
+                transform: translateX(100px);
+              
+            }
+            &:hover {
+
+                .crostil{
+                    width: 90%;
+                    .prix{
+                        transform: translateX(-10px);
+                    }
+                }
+               .chek {
+                   transform: translateX(0px);
+               }
+           }
+            
         }
     } 
     .demande{

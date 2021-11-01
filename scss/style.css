@@ -2,7 +2,7 @@
 body {
   margin-right: 10px;
   margin-left: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'shrikhandregular', sans-serif;
 }
 
 a {
@@ -64,6 +64,7 @@ a {
 }
 
 .aboutRes__abouTitre h1 {
+  font-family: 'shrikhandregular';
   height: 60px;
   margin-left: 5px;
   display: -ms-grid;
@@ -167,6 +168,11 @@ a {
 }
 
 .aboutRes .entre__tartare {
+  overflow-x: hidden;
+  -webkit-transition: -webkit-transform width 1s ease-in-out;
+  transition: -webkit-transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -174,12 +180,12 @@ a {
   border-radius: 15px 15px 15px 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 83% 15%;
-      grid-template-columns: 83% 15%;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
 }
 
 .aboutRes .entre__tartare .acidpul {
-  height: 50px;
+  width: 100%;
 }
 
 .aboutRes .entre__tartare .acidpul .titart {
@@ -194,9 +200,45 @@ a {
   font-size: 14px;
 }
 
-.aboutRes .entre__tartare .prix {
-  height: 35px;
-  margin-top: 15px;
+.aboutRes .entre__tartare .acidpul .rev1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutRes .entre__tartare .chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #99E2D0;
+  color: white;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.aboutRes .entre__tartare:hover .acidpul {
+  width: 90%;
+}
+
+.aboutRes .entre__tartare:hover .acidpul .prix {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.aboutRes .entre__tartare:hover .chek {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .aboutRes .entre__soupe:hover i {
@@ -206,7 +248,25 @@ a {
           transition-duration: 0.5s;
 }
 
+.aboutRes .entre__tartare:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.aboutRes .entre__Veloute:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
 .aboutRes .entre__Veloute {
+  -webkit-transition: -webkit-transform width 1s ease-in-out;
+  transition: -webkit-transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -216,6 +276,11 @@ a {
   display: grid;
   -ms-grid-columns: 85% 15%;
       grid-template-columns: 85% 15%;
+  overflow-x: hidden;
+}
+
+.aboutRes .entre__Veloute .Velout1 {
+  width: 100%;
 }
 
 .aboutRes .entre__Veloute .Velout1 .titVelout {
@@ -230,9 +295,45 @@ a {
   font-size: 14px;
 }
 
-.aboutRes .entre__Veloute .prix {
-  height: 35px;
-  margin-top: 15px;
+.aboutRes .entre__Veloute .Velout1 .rev1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutRes .entre__Veloute .chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #99E2D0;
+  color: white;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.aboutRes .entre__Veloute:hover .Velout1 {
+  width: 90%;
+}
+
+.aboutRes .entre__Veloute:hover .Velout1 .prix {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.aboutRes .entre__Veloute:hover .chek {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .aboutRes .entre__soupe {
@@ -323,6 +424,27 @@ a {
   grid-gap: 15px;
 }
 
+.aboutRes .plats__coquille:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.aboutRes .plats__magret:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.aboutRes .plats__pegeon:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
 @media screen and (min-width: 600px) {
   .aboutRes .plats {
     -ms-grid-columns: 60%;
@@ -354,6 +476,11 @@ a {
 }
 
 .aboutRes .plats__coquille {
+  overflow-x: hidden;
+  -webkit-transition: -webkit-transform width 1s ease-in-out;
+  transition: -webkit-transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -378,12 +505,53 @@ a {
   font-size: 14px;
 }
 
-.aboutRes .plats__coquille .prix {
-  height: 35px;
-  margin-top: 15px;
+.aboutRes .plats__coquille .sainjac .rev1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutRes .plats__coquille .chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #99E2D0;
+  color: white;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.aboutRes .plats__coquille:hover .sainjac {
+  width: 90%;
+}
+
+.aboutRes .plats__coquille:hover .sainjac .prix {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.aboutRes .plats__coquille:hover .chek {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .aboutRes .plats__magret {
+  overflow-x: hidden;
+  -webkit-transition: -webkit-transform width 1s ease-in-out;
+  transition: -webkit-transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -407,12 +575,53 @@ a {
   font-size: 14px;
 }
 
-.aboutRes .plats__magret .prix {
-  height: 35px;
-  margin-top: 15px;
+.aboutRes .plats__magret .canard .rev1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutRes .plats__magret .chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #99E2D0;
+  color: white;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.aboutRes .plats__magret:hover .canard {
+  width: 90%;
+}
+
+.aboutRes .plats__magret:hover .canard .prix {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.aboutRes .plats__magret:hover .chek {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .aboutRes .plats__pegeon {
+  overflow-x: hidden;
+  -webkit-transition: -webkit-transform width 1s ease-in-out;
+  transition: -webkit-transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -436,9 +645,45 @@ a {
   font-size: 14px;
 }
 
-.aboutRes .plats__pegeon .prix {
-  height: 35px;
-  margin-top: 15px;
+.aboutRes .plats__pegeon .pegeonils .rev1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutRes .plats__pegeon .chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #99E2D0;
+  color: white;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.aboutRes .plats__pegeon:hover .pegeonils {
+  width: 90%;
+}
+
+.aboutRes .plats__pegeon:hover .pegeonils .prix {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.aboutRes .plats__pegeon:hover .chek {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .aboutRes .desser {
@@ -453,6 +698,27 @@ a {
   -ms-grid-columns: 95%;
       grid-template-columns: 95%;
   grid-gap: 15px;
+}
+
+.aboutRes .desser__petal:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.aboutRes .desser__fondant:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.aboutRes .desser__mellfeulle:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 @media screen and (min-width: 600px) {
@@ -486,6 +752,11 @@ a {
 }
 
 .aboutRes .desser__petal {
+  overflow-x: hidden;
+  -webkit-transition: -webkit-transform width 1s ease-in-out;
+  transition: -webkit-transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -509,12 +780,53 @@ a {
   font-size: 14px;
 }
 
-.aboutRes .desser__petal .prix {
-  height: 35px;
-  margin-top: 15px;
+.aboutRes .desser__petal .violette .rev1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutRes .desser__petal .chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #99E2D0;
+  color: white;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.aboutRes .desser__petal:hover .violette {
+  width: 90%;
+}
+
+.aboutRes .desser__petal:hover .violette .prix {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.aboutRes .desser__petal:hover .chek {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .aboutRes .desser__fondant {
+  overflow-x: hidden;
+  -webkit-transition: -webkit-transform width 1s ease-in-out;
+  transition: -webkit-transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -538,12 +850,53 @@ a {
   font-size: 14px;
 }
 
-.aboutRes .desser__fondant .prix {
-  height: 35px;
-  margin-top: 15px;
+.aboutRes .desser__fondant .chocol .rev1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutRes .desser__fondant .chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #99E2D0;
+  color: white;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.aboutRes .desser__fondant:hover .chocol {
+  width: 90%;
+}
+
+.aboutRes .desser__fondant:hover .chocol .prix {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.aboutRes .desser__fondant:hover .chek {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .aboutRes .desser__mellfeulle {
+  overflow-x: hidden;
+  -webkit-transition: -webkit-transform width 1s ease-in-out;
+  transition: -webkit-transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out;
+  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -567,9 +920,45 @@ a {
   font-size: 14px;
 }
 
-.aboutRes .desser__mellfeulle .prix {
-  height: 35px;
-  margin-top: 15px;
+.aboutRes .desser__mellfeulle .crostil .rev1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutRes .desser__mellfeulle .chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #99E2D0;
+  color: white;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.aboutRes .desser__mellfeulle:hover .crostil {
+  width: 90%;
+}
+
+.aboutRes .desser__mellfeulle:hover .crostil .prix {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.aboutRes .desser__mellfeulle:hover .chek {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .aboutRes .demande {
@@ -618,6 +1007,11 @@ a {
   .aboutRes .demande {
     width: 15%;
   }
+}
+
+@font-face {
+  font-family: 'shrikhandregular';
+  src: url(../fonts/Shrikhand-Regular);
 }
 
 /**

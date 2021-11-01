@@ -4,7 +4,10 @@
 @import 'buttons'; // Stock le styles des buttons
 @import 'mixins';   /// Stock seulement les mixins
 @import './pages/menu';
-
+@font-face {
+  font-family:'shrikhandregular' ;
+  src: url(../fonts/Shrikhand-Regular);
+}
 
 
 // cHARGEMENT DES LAYOUTS
