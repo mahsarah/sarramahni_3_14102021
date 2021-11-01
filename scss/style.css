@@ -1009,11 +1009,7 @@ a {
   }
 }
 
-@font-face {
-  font-family: 'shrikhandregular';
-  src: url(../fonts/Shrikhand-Regular);
-}
-
+/*herder about copie indid */
 /**
  SECTION HEADER
 */
@@ -2190,33 +2186,8 @@ a {
 
 /*--page about--*/
 /*
-header{
-    
-   .navfood{
-       .abouthef{
-           width: 100%;
-           height: 250px;
-           @include tablletm {
-            width: 50%;
-            height: 300px;
-            margin-left:170px;    
-           }
-          @include ordinataurp {
-            width: 50%;
-            height: 300px;
-            margin-left:300px; 
-          }
-          @include ordinataurmin{
-            width: 50%;  
-            margin-left:400px;
-            height: 400px
-          }
-         
-       }
-   }
 
-}
-*/
+
 /**
  SECTION menu
 */
