@@ -337,10 +337,10 @@ a {
 }
 
 .aboutRes .entre__soupe {
-  -webkit-transition: -webkit-transform width 1s ease-in-out;
-  transition: -webkit-transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
+  -webkit-transition: -webkit-transform  1s ease-in-out;
+  transition: -webkit-transform  1s ease-in-out;
+  transition: transform  1s ease-in-out;
+  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -477,10 +477,10 @@ a {
 
 .aboutRes .plats__coquille {
   overflow-x: hidden;
-  -webkit-transition: -webkit-transform width 1s ease-in-out;
-  transition: -webkit-transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
+  -webkit-transition: -webkit-transform  1s ease-in-out;
+  transition: -webkit-transform  1s ease-in-out;
+  transition: transform  1s ease-in-out;
+  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -548,10 +548,10 @@ a {
 
 .aboutRes .plats__magret {
   overflow-x: hidden;
-  -webkit-transition: -webkit-transform width 1s ease-in-out;
-  transition: -webkit-transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
+  -webkit-transition: -webkit-transform  1s ease-in-out;
+  transition: -webkit-transform  1s ease-in-out;
+  transition: transform  1s ease-in-out;
+  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -618,10 +618,10 @@ a {
 
 .aboutRes .plats__pegeon {
   overflow-x: hidden;
-  -webkit-transition: -webkit-transform width 1s ease-in-out;
-  transition: -webkit-transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
+  -webkit-transition: -webkit-transform  1s ease-in-out;
+  transition: -webkit-transform  1s ease-in-out;
+  transition: transform  1s ease-in-out;
+  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -753,10 +753,10 @@ a {
 
 .aboutRes .desser__petal {
   overflow-x: hidden;
-  -webkit-transition: -webkit-transform width 1s ease-in-out;
-  transition: -webkit-transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
+  -webkit-transition: -webkit-transform  1s ease-in-out;
+  transition: -webkit-transform  1s ease-in-out;
+  transition: transform  1s ease-in-out;
+  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -823,10 +823,10 @@ a {
 
 .aboutRes .desser__fondant {
   overflow-x: hidden;
-  -webkit-transition: -webkit-transform width 1s ease-in-out;
-  transition: -webkit-transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
+  -webkit-transition: -webkit-transform  1s ease-in-out;
+  transition: -webkit-transform  1s ease-in-out;
+  transition: transform  1s ease-in-out;
+  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -893,10 +893,10 @@ a {
 
 .aboutRes .desser__mellfeulle {
   overflow-x: hidden;
-  -webkit-transition: -webkit-transform width 1s ease-in-out;
-  transition: -webkit-transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out;
-  transition: transform width 1s ease-in-out, -webkit-transform width 1s ease-in-out;
+  -webkit-transition: -webkit-transform  1s ease-in-out;
+  transition: -webkit-transform  1s ease-in-out;
+  transition: transform  1s ease-in-out;
+  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -1009,7 +1009,6 @@ a {
   }
 }
 
-/*herder about copie indid */
 /**
  SECTION HEADER
 */

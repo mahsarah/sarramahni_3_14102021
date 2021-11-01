@@ -183,7 +183,7 @@
         }
         &__soupe{
            
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns:87% 15%;
             overflow-x: hidden;
@@ -265,7 +265,7 @@
         }
         &__coquille{
             overflow-x: hidden;
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;
             
@@ -308,7 +308,7 @@
         }
         &__magret{
             overflow-x: hidden;
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;
             .canard{
@@ -350,7 +350,7 @@
         }
         &__pegeon{
             overflow-x: hidden;
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%; 
             .pegeonils{
@@ -426,7 +426,7 @@
         } 
         &__petal{
             overflow-x: hidden;
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;
             .violette{
@@ -466,7 +466,7 @@
         }
         &__fondant{
             overflow-x: hidden;
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;
             .chocol{
@@ -506,7 +506,7 @@
         }
         &__mellfeulle{
             overflow-x: hidden;
-            transition: transform width 1s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 87% 15%;  
             .crostil{
