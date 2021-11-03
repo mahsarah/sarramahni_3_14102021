@@ -10,19 +10,24 @@
 	<link rel="stylesheet" type="text/css" href="./scss/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap" rel="stylesheet">
     <title>ohmayfood</title>
 
 </head> 
 <body>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div> 
 <!--header-->
 <header class="food">
     <nav class="navfood">
        <div class="navfood__logo">
+           <i class="fas fa-arrow-left"></i>
            <img src="images/ohmyfood.png" alt="logofod" class="logofod">
        </div>
        <div class="navfood__maps">
-             <i class="fas fa-map-marker-alt "></i>
+      
+        <a href="https://www.google.fr/maps/@49.1403279,2.2178771,15z"> <i class="fas fa-map-marker-alt "></i></a>
               <p>Paris,Belleville</p>
        </div>
        <div class="navfood__reservez">
@@ -60,6 +65,7 @@
     </div>
 
 </header>
+
 <!--section-->
 <section class="restaurant">
     <div class="restaurant__titre"><h1>restaurants</h1></div>
@@ -138,8 +144,8 @@
     <div class="omyfooter__partenirmonleg">
          <i class="fas fa-hands-helping"></i> <p class="espace">Devenir partenire  </p>
      </div>
-     <div class="omyfooter__contact"><p><br>MentionS Légales Contacte </p></div>
-   
+     <div class="omyfooter__contact"><p><br>MentionS Légales<br> <a href="mailto:adresse@serveur.com"><b> Contacte</b></a></p></div>
+     
 </footer>
 
  </body>
