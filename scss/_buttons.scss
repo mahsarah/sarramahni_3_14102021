@@ -11,8 +11,9 @@
 }
 @mixin hoverT {
     &:hover{
-        transform: scale(1.1);
-     }
+        background-image: linear-gradient(to top,$violet-color,$pink-color);
+        box-shadow: 2px 2px 1px 1px gray;
+    }
 }
 @mixin flexbutton{
     display: flex;
@@ -44,7 +45,12 @@
     display: inline-block;
     border-radius: 20px;
     padding:10px 15px;
+    background-image: linear-gradient(to top,darken($violet-color,10%),darken($pink-color,10%));
+    box-shadow: 1px 1px 2px 1px gray;
+}
+.btn-primary:hover {
     background-image: linear-gradient(to top,$violet-color,$pink-color);
+    box-shadow: 2px 2px 1px 1px gray;
 }
 @mixin fonctionnement {
     background-color: #9356DC;

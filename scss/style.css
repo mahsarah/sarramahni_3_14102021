@@ -28,8 +28,17 @@ a {
   display: inline-block;
   border-radius: 20px;
   padding: 10px 15px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#782cd3), to(#ff46cc));
+  background-image: linear-gradient(to top, #782cd3, #ff46cc);
+  -webkit-box-shadow: 1px 1px 2px 1px gray;
+          box-shadow: 1px 1px 2px 1px gray;
+}
+
+.btn-primary:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
   background-image: linear-gradient(to top, #9356DC, #FF79DA);
+  -webkit-box-shadow: 2px 2px 1px 1px gray;
+          box-shadow: 2px 2px 1px 1px gray;
 }
 
 .aboutRes {
@@ -1054,8 +1063,8 @@ a {
       -ms-flex-align: center;
           align-items: center;
   width: 50%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
-  background-image: linear-gradient(to top, #9356DC, #FF79DA);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#782cd3), to(#ff46cc));
+  background-image: linear-gradient(to top, #782cd3, #ff46cc);
   height: 38px;
   border-radius: 15px;
   margin-left: 60px;
@@ -1063,8 +1072,10 @@ a {
 }
 
 .aboutRes .demande:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background-image: linear-gradient(to top, #9356DC, #FF79DA);
+  -webkit-box-shadow: 2px 2px 1px 1px gray;
+          box-shadow: 2px 2px 1px 1px gray;
 }
 
 .aboutRes .demande a {

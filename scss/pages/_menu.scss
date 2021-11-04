@@ -116,7 +116,6 @@
             animation-delay: 0.4s;
             overflow: hidden;
             white-space: nowrap;
-            
             .acidpul{
                 
                 width: 100%;
@@ -606,7 +605,7 @@
         box-shadow:5px 5px 5px $boreder-color;
        @include flexbutton;
         width: 50%;
-        background-image: linear-gradient(to top,$violet-color,$pink-color);
+    background-image: linear-gradient(to top,darken($violet-color,10%),darken($pink-color,10%));
         height: 38px;
         border-radius: 15px;
         margin-left: 60px;
