@@ -109,10 +109,14 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;
         }
         &__tartare{
-            overflow-x: hidden;
             transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
+            animation: apparition 2s linear;
+            animation-delay: 0.4s;
+            overflow: hidden;
+            white-space: nowrap;
+            
             .acidpul{
                 
                 width: 100%;
@@ -169,10 +173,12 @@
         }
 
         &__Veloute{
-            transition: transform  1s ease-in-out;
+            transition: transform  2s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
-            overflow-x: hidden;
+            animation: apparition 2s linear;
+            animation-delay: 0.8s;
+            overflow: hidden;
             white-space: nowrap;
             .Velout1{
                  width: 100%;
@@ -213,11 +219,12 @@
 
         }
         &__soupe{
-           
-            transition: transform  1s ease-in-out;
+            transition: transform  3s ease-in-out;
             @include tartareA;
-            grid-template-columns:87% 15%;
-            overflow-x: hidden;
+            grid-template-columns: 85% 15%;
+            animation: apparition 2s linear;
+            animation-delay: 0.12s;
+            overflow: hidden;
             white-space: nowrap;
             .soup1 {
              
@@ -296,13 +303,13 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;  
         }
         &__coquille{
-            white-space: nowrap;
-            overflow-x: hidden;
-            transition: transform  1s ease-in-out;
+            transition: transform  5s ease-in-out;
             @include tartareA;
-            grid-template-columns: 87% 15%;
-            
-            
+            grid-template-columns: 85% 15%;
+            animation: apparition 2s linear;
+            animation-delay: 0.14s;
+            overflow: hidden;
+            white-space: nowrap;
             .sainjac{
               .titrsanj {
                 @include titarA;
@@ -340,11 +347,13 @@
            }
         }
         &__magret{
-            overflow-x: hidden;
-            white-space: nowrap;
-            transition: transform  1s ease-in-out;
+            transition: transform  5s ease-in-out;
             @include tartareA;
-            grid-template-columns: 87% 15%;
+            grid-template-columns: 85% 15%;
+            animation: apparition 2s linear;
+            animation-delay: 0.30s;
+            overflow: hidden;
+            white-space: nowrap;
             .canard{
                 .titrcand{
                     @include titarA;   
@@ -383,11 +392,13 @@
             
         }
         &__pegeon{
-            overflow-x: hidden;
-            white-space: nowrap;
-            transition: transform  1s ease-in-out;
+            transition: transform  5s ease-in-out;
             @include tartareA;
-            grid-template-columns: 87% 15%; 
+            grid-template-columns: 85% 15%;
+            animation: apparition 2s linear;
+            animation-delay: 0.60s;
+            overflow: hidden;
+            white-space: nowrap;
             .pegeonils{
                 .titrpeg{
                     @include titarA;   
@@ -460,11 +471,14 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;   
         } 
         &__petal{
-            overflow-x: hidden;
-            white-space: nowrap;
-            transition: transform  1s ease-in-out;
+            transition: transform  6s ease-in-out;
             @include tartareA;
-            grid-template-columns: 87% 15%;
+            grid-template-columns: 85% 15%;
+            animation: apparition 2s linear;
+            animation-delay: 0.80s;
+            overflow: hidden;
+            white-space: nowrap;
+           
             .violette{
                 .titrviolet{
                     @include titarA;    
@@ -501,11 +515,13 @@
            
         }
         &__fondant{
-            overflow-x: hidden;
-            white-space: nowrap;
-            transition: transform  1s ease-in-out;
+            transition: transform  6s ease-in-out;
             @include tartareA;
-            grid-template-columns: 87% 15%;
+            grid-template-columns: 85% 15%;
+            animation: apparition 2s linear;
+            animation-delay: 0.90s;
+            overflow: hidden;
+            white-space: nowrap;
             .chocol{
                 .titrchoc{
                     @include titarA; 
@@ -542,11 +558,13 @@
            
         }
         &__mellfeulle{
-            overflow-x: hidden;
-            white-space: nowrap;
-            transition: transform  1s ease-in-out;
+            transition: transform  7s ease-in-out;
             @include tartareA;
-            grid-template-columns: 87% 15%;  
+            grid-template-columns: 85% 15%;
+            animation: apparition 2s linear;
+            animation-delay: 0.99s;
+            overflow: hidden;
+            white-space: nowrap;
             .crostil{
                 .titrcros{
                     @include titarA; 
@@ -608,5 +626,20 @@
         @include ordinataurmin{
             width: 15%;
         }
+    }
+}
+
+@keyframes apparition {
+    0% {
+     opacity: 0;
+     transform: translateY(15px);
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+     transform: translateY(0);
     }
 }

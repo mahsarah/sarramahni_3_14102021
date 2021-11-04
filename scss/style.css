@@ -203,7 +203,6 @@ a {
 }
 
 .aboutRes .entre__tartare {
-  overflow-x: hidden;
   -webkit-transition: -webkit-transform  1s ease-in-out;
   transition: -webkit-transform  1s ease-in-out;
   transition: transform  1s ease-in-out;
@@ -217,6 +216,12 @@ a {
   display: grid;
   -ms-grid-columns: 85% 15%;
       grid-template-columns: 85% 15%;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .aboutRes .entre__tartare .acidpul {
@@ -298,10 +303,10 @@ a {
 }
 
 .aboutRes .entre__Veloute {
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  2s ease-in-out;
+  transition: -webkit-transform  2s ease-in-out;
+  transition: transform  2s ease-in-out;
+  transition: transform  2s ease-in-out, -webkit-transform  2s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -311,7 +316,11 @@ a {
   display: grid;
   -ms-grid-columns: 85% 15%;
       grid-template-columns: 85% 15%;
-  overflow-x: hidden;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  overflow: hidden;
   white-space: nowrap;
 }
 
@@ -373,10 +382,10 @@ a {
 }
 
 .aboutRes .entre__soupe {
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  3s ease-in-out;
+  transition: -webkit-transform  3s ease-in-out;
+  transition: transform  3s ease-in-out;
+  transition: transform  3s ease-in-out, -webkit-transform  3s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -384,9 +393,13 @@ a {
   border-radius: 15px 15px 15px 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 87% 15%;
-      grid-template-columns: 87% 15%;
-  overflow-x: hidden;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+  overflow: hidden;
   white-space: nowrap;
 }
 
@@ -513,12 +526,10 @@ a {
 }
 
 .aboutRes .plats__coquille {
-  white-space: nowrap;
-  overflow-x: hidden;
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  5s ease-in-out;
+  transition: -webkit-transform  5s ease-in-out;
+  transition: transform  5s ease-in-out;
+  transition: transform  5s ease-in-out, -webkit-transform  5s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -526,8 +537,14 @@ a {
   border-radius: 15px 15px 15px 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 87% 15%;
-      grid-template-columns: 87% 15%;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .aboutRes .plats__coquille .sainjac .titrsanj {
@@ -585,12 +602,10 @@ a {
 }
 
 .aboutRes .plats__magret {
-  overflow-x: hidden;
-  white-space: nowrap;
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  5s ease-in-out;
+  transition: -webkit-transform  5s ease-in-out;
+  transition: transform  5s ease-in-out;
+  transition: transform  5s ease-in-out, -webkit-transform  5s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -598,8 +613,14 @@ a {
   border-radius: 15px 15px 15px 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 87% 15%;
-      grid-template-columns: 87% 15%;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.30s;
+          animation-delay: 0.30s;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .aboutRes .plats__magret .canard .titrcand {
@@ -656,12 +677,10 @@ a {
 }
 
 .aboutRes .plats__pegeon {
-  overflow-x: hidden;
-  white-space: nowrap;
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  5s ease-in-out;
+  transition: -webkit-transform  5s ease-in-out;
+  transition: transform  5s ease-in-out;
+  transition: transform  5s ease-in-out, -webkit-transform  5s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -669,8 +688,14 @@ a {
   border-radius: 15px 15px 15px 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 87% 15%;
-      grid-template-columns: 87% 15%;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.60s;
+          animation-delay: 0.60s;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .aboutRes .plats__pegeon .pegeonils .titrpeg {
@@ -792,12 +817,10 @@ a {
 }
 
 .aboutRes .desser__petal {
-  overflow-x: hidden;
-  white-space: nowrap;
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  6s ease-in-out;
+  transition: -webkit-transform  6s ease-in-out;
+  transition: transform  6s ease-in-out;
+  transition: transform  6s ease-in-out, -webkit-transform  6s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -805,8 +828,14 @@ a {
   border-radius: 15px 15px 15px 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 87% 15%;
-      grid-template-columns: 87% 15%;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.80s;
+          animation-delay: 0.80s;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .aboutRes .desser__petal .violette .titrviolet {
@@ -863,12 +892,10 @@ a {
 }
 
 .aboutRes .desser__fondant {
-  overflow-x: hidden;
-  white-space: nowrap;
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  6s ease-in-out;
+  transition: -webkit-transform  6s ease-in-out;
+  transition: transform  6s ease-in-out;
+  transition: transform  6s ease-in-out, -webkit-transform  6s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -876,8 +903,14 @@ a {
   border-radius: 15px 15px 15px 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 87% 15%;
-      grid-template-columns: 87% 15%;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.90s;
+          animation-delay: 0.90s;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .aboutRes .desser__fondant .chocol .titrchoc {
@@ -934,12 +967,10 @@ a {
 }
 
 .aboutRes .desser__mellfeulle {
-  overflow-x: hidden;
-  white-space: nowrap;
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  7s ease-in-out;
+  transition: -webkit-transform  7s ease-in-out;
+  transition: transform  7s ease-in-out;
+  transition: transform  7s ease-in-out, -webkit-transform  7s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -947,8 +978,14 @@ a {
   border-radius: 15px 15px 15px 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 87% 15%;
-      grid-template-columns: 87% 15%;
+  -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%;
+  -webkit-animation: apparition 2s linear;
+          animation: apparition 2s linear;
+  -webkit-animation-delay: 0.99s;
+          animation-delay: 0.99s;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .aboutRes .desser__mellfeulle .crostil .titrcros {
@@ -1052,6 +1089,36 @@ a {
 @media screen and (min-width: 1250px) {
   .aboutRes .demande {
     width: 15%;
+  }
+}
+
+@-webkit-keyframes apparition {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes apparition {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -1215,10 +1282,6 @@ header .navfood__reservez a {
   color: #faf9f9;
 }
 
-header .navfood__reservez a:hover {
-  background-color: #fface8;
-}
-
 @media screen and (min-width: 400px) {
   header .navfood__reservez a {
     width: 48%;
@@ -1321,7 +1384,7 @@ header .fonct__boutuon .chois .number {
   height: 30px;
   border-radius: 30px;
   position: absolute;
-  z-index: 1000;
+  color: white;
 }
 
 @media screen and (min-width: 400px) {
@@ -1439,7 +1502,7 @@ header .fonct .chois2 .number2 {
   height: 30px;
   border-radius: 30px;
   position: absolute;
-  z-index: 1000;
+  color: white;
 }
 
 @media screen and (min-width: 400px) {
@@ -1557,7 +1620,7 @@ header .fonct__degu .chois3 .number3 {
   height: 30px;
   border-radius: 30px;
   position: absolute;
-  z-index: 1000;
+  color: white;
 }
 
 @media screen and (min-width: 400px) {
@@ -1826,7 +1889,7 @@ header .fonct__degu .chois3 .icon3 {
   width: 25%;
   height: 30px;
   position: absolute;
-  z-index: 100;
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1942,7 +2005,7 @@ header .fonct__degu .chois3 .icon3 {
   width: 25%;
   height: 30px;
   position: absolute;
-  z-index: 100;
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2191,9 +2254,8 @@ header .fonct__degu .chois3 .icon3 {
   width: 100%;
   height: 100%;
   background-color: white;
-  overflow: hidden;
-  -webkit-transition: opacity 1s ease-in-out,visibility 1s ease-in-out;
-  transition: opacity 1s ease-in-out,visibility 1s ease-in-out;
+  -webkit-animation: disappear 1s 2s both;
+          animation: disappear 1s 2s both;
 }
 
 .loader {
@@ -2204,8 +2266,8 @@ header .fonct__degu .chois3 .icon3 {
   border-top: 16px solid #FF79DA;
   border-bottom: 16px solid #9356DC;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 40%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
@@ -2236,8 +2298,28 @@ header .fonct__degu .chois3 .icon3 {
   }
 }
 
-.loader-container {
-  display: none;
+@-webkit-keyframes disappear {
+  0% {
+    opacity: 1;
+    z-index: 5;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+    z-index: 5;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
 }
 
 a {

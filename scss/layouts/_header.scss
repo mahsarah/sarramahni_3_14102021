@@ -73,10 +73,7 @@ header{
                     
                 }
               a{
-                &:hover{
-                    //transform: scale(1.1);
-                   background-color: lighten( $pink-color,10%);
-                  }  
+                 
                 @include flexbutton;
                 @include  tablette {
                    width: 48% ;
