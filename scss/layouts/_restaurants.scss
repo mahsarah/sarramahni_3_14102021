@@ -53,25 +53,31 @@
          
      
         .butonneuv{
-            margin-left:130px;
+            margin-left:180px;
             @include greenbouton;
             @include flexbutton;
             @include tablette{
-                width: 30%;
-              
+                width: 30%; 
             }
             @include tablletm{
-             
+                margin-left:90px;
                 width: 15%;
             }
-           @include tablletmpxy{
+            @include tablletmpx{
+                margin-left:130px;
                
+            }
+           @include tablletmpxy{
+            margin-left:180px;
                 width: 10%;
                 
             }
             @include ordinataurp{
-                width: 5%;
+                width: 6%;
                 left: 185px;
+            }
+            @include ordinataurmin{
+                margin-left:300px;  
             }
         }
           @include images;
@@ -120,7 +126,7 @@
        .img2{
           
         .butonneuv{
-            margin-left:130px;
+            margin-left:180px;
             @include greenbouton;
             @include flexbutton;
             @include tablette{
@@ -128,16 +134,23 @@
                
             }
             @include tablletm{
-             
+                margin-left:90px;
                 width: 15%;
             }
-           @include tablletmpxy{
+            @include tablletmpx{
+                margin-left:130px;
                
+            }
+           @include tablletmpxy{
+            margin-left:180px;
                 width: 10%;  
             }
             @include ordinataurp{
-                width: 5%;
+                width: 6%;
                
+            }
+            @include ordinataurmin{
+                margin-left:300px;  
             }
 
           
@@ -311,9 +324,7 @@
     }
 }
 
-//.loader-container {
- //display: none;
-//}
+
 @keyframes disappear{
     0%{
         opacity: 1;

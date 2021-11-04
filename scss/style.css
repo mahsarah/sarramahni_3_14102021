@@ -1440,7 +1440,7 @@ header .fonct__boutuon .chois:hover {
 }
 
 header .fonct__boutuon .chois .icon {
-  color: #727171;
+  color: #9356DC;
   margin-left: 3px;
 }
 
@@ -1558,7 +1558,7 @@ header .fonct .chois2:hover {
 }
 
 header .fonct .chois2 .icon2 {
-  color: #727171;
+  color: #9356DC;
   margin-left: 3px;
 }
 
@@ -1894,7 +1894,7 @@ header .fonct__degu .chois3 .icon3 {
 }
 
 .restaurant .restimgages .img1 .butonneuv {
-  margin-left: 130px;
+  margin-left: 180px;
   background-color: #99E2D0;
   color: #217021;
   width: 25%;
@@ -1920,20 +1920,34 @@ header .fonct__degu .chois3 .icon3 {
 
 @media screen and (min-width: 600px) {
   .restaurant .restimgages .img1 .butonneuv {
+    margin-left: 90px;
     width: 15%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .restaurant .restimgages .img1 .butonneuv {
+    margin-left: 130px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .restaurant .restimgages .img1 .butonneuv {
+    margin-left: 180px;
     width: 10%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .restaurant .restimgages .img1 .butonneuv {
-    width: 5%;
+    width: 6%;
     left: 185px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .restaurant .restimgages .img1 .butonneuv {
+    margin-left: 300px;
   }
 }
 
@@ -2010,7 +2024,7 @@ header .fonct__degu .chois3 .icon3 {
 }
 
 .restaurant .restimgages .img2 .butonneuv {
-  margin-left: 130px;
+  margin-left: 180px;
   background-color: #99E2D0;
   color: #217021;
   width: 25%;
@@ -2036,19 +2050,33 @@ header .fonct__degu .chois3 .icon3 {
 
 @media screen and (min-width: 600px) {
   .restaurant .restimgages .img2 .butonneuv {
+    margin-left: 90px;
     width: 15%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .restaurant .restimgages .img2 .butonneuv {
+    margin-left: 130px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .restaurant .restimgages .img2 .butonneuv {
+    margin-left: 180px;
     width: 10%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .restaurant .restimgages .img2 .butonneuv {
-    width: 5%;
+    width: 6%;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .restaurant .restimgages .img2 .butonneuv {
+    margin-left: 300px;
   }
 }
 
