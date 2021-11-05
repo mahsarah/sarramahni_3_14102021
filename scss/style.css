@@ -312,10 +312,10 @@ a {
 }
 
 .aboutRes .entre__Veloute {
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  2s ease-in-out;
+  transition: -webkit-transform  2s ease-in-out;
+  transition: transform  2s ease-in-out;
+  transition: transform  2s ease-in-out, -webkit-transform  2s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -391,10 +391,10 @@ a {
 }
 
 .aboutRes .entre__soupe {
-  -webkit-transition: -webkit-transform  3s ease-in-out;
-  transition: -webkit-transform  3s ease-in-out;
-  transition: transform  3s ease-in-out;
-  transition: transform  3s ease-in-out, -webkit-transform  3s ease-in-out;
+  -webkit-transition: -webkit-transform  2s ease-in-out;
+  transition: -webkit-transform  2s ease-in-out;
+  transition: transform  2s ease-in-out;
+  transition: transform  2s ease-in-out, -webkit-transform  2s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -535,10 +535,10 @@ a {
 }
 
 .aboutRes .plats__coquille {
-  -webkit-transition: -webkit-transform  5s ease-in-out;
-  transition: -webkit-transform  5s ease-in-out;
-  transition: transform  5s ease-in-out;
-  transition: transform  5s ease-in-out, -webkit-transform  5s ease-in-out;
+  -webkit-transition: -webkit-transform  7s ease-in-out;
+  transition: -webkit-transform  7s ease-in-out;
+  transition: transform  7s ease-in-out;
+  transition: transform  7s ease-in-out, -webkit-transform  7s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -611,10 +611,10 @@ a {
 }
 
 .aboutRes .plats__magret {
-  -webkit-transition: -webkit-transform  5s ease-in-out;
-  transition: -webkit-transform  5s ease-in-out;
-  transition: transform  5s ease-in-out;
-  transition: transform  5s ease-in-out, -webkit-transform  5s ease-in-out;
+  -webkit-transition: -webkit-transform  7s ease-in-out;
+  transition: -webkit-transform  7s ease-in-out;
+  transition: transform  7s ease-in-out;
+  transition: transform  7s ease-in-out, -webkit-transform  7s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -686,10 +686,10 @@ a {
 }
 
 .aboutRes .plats__pegeon {
-  -webkit-transition: -webkit-transform  5s ease-in-out;
-  transition: -webkit-transform  5s ease-in-out;
-  transition: transform  5s ease-in-out;
-  transition: transform  5s ease-in-out, -webkit-transform  5s ease-in-out;
+  -webkit-transition: -webkit-transform  7s ease-in-out;
+  transition: -webkit-transform  7s ease-in-out;
+  transition: transform  7s ease-in-out;
+  transition: transform  7s ease-in-out, -webkit-transform  7s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -826,10 +826,10 @@ a {
 }
 
 .aboutRes .desser__petal {
-  -webkit-transition: -webkit-transform  6s ease-in-out;
-  transition: -webkit-transform  6s ease-in-out;
-  transition: transform  6s ease-in-out;
-  transition: transform  6s ease-in-out, -webkit-transform  6s ease-in-out;
+  -webkit-transition: -webkit-transform  9s ease-in-out;
+  transition: -webkit-transform  9s ease-in-out;
+  transition: transform  9s ease-in-out;
+  transition: transform  9s ease-in-out, -webkit-transform  9s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -901,10 +901,10 @@ a {
 }
 
 .aboutRes .desser__fondant {
-  -webkit-transition: -webkit-transform  6s ease-in-out;
-  transition: -webkit-transform  6s ease-in-out;
-  transition: transform  6s ease-in-out;
-  transition: transform  6s ease-in-out, -webkit-transform  6s ease-in-out;
+  -webkit-transition: -webkit-transform  9s ease-in-out;
+  transition: -webkit-transform  9s ease-in-out;
+  transition: transform  9s ease-in-out;
+  transition: transform  9s ease-in-out, -webkit-transform  9s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -976,10 +976,10 @@ a {
 }
 
 .aboutRes .desser__mellfeulle {
-  -webkit-transition: -webkit-transform  7s ease-in-out;
-  transition: -webkit-transform  7s ease-in-out;
-  transition: transform  7s ease-in-out;
-  transition: transform  7s ease-in-out, -webkit-transform  7s ease-in-out;
+  -webkit-transition: -webkit-transform  9s ease-in-out;
+  transition: -webkit-transform  9s ease-in-out;
+  transition: transform  9s ease-in-out;
+  transition: transform  9s ease-in-out, -webkit-transform  9s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;

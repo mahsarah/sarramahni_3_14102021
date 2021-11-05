@@ -172,7 +172,7 @@
         }
 
         &__Veloute{
-            transition: transform  1s ease-in-out;
+            transition: transform  2s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
@@ -218,7 +218,7 @@
 
         }
         &__soupe{
-            transition: transform  3s ease-in-out;
+            transition: transform  2s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
@@ -302,7 +302,7 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;  
         }
         &__coquille{
-            transition: transform  5s ease-in-out;
+            transition: transform  7s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
@@ -346,7 +346,7 @@
            }
         }
         &__magret{
-            transition: transform  5s ease-in-out;
+            transition: transform  7s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
@@ -391,7 +391,7 @@
             
         }
         &__pegeon{
-            transition: transform  5s ease-in-out;
+            transition: transform  7s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
@@ -470,7 +470,7 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;   
         } 
         &__petal{
-            transition: transform  6s ease-in-out;
+            transition: transform  9s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
@@ -514,7 +514,7 @@
            
         }
         &__fondant{
-            transition: transform  6s ease-in-out;
+            transition: transform  9s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
@@ -557,7 +557,7 @@
            
         }
         &__mellfeulle{
-            transition: transform  7s ease-in-out;
+            transition: transform  9s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
