@@ -1233,6 +1233,14 @@ header .navfood__maps {
   }
 }
 
+header .navfood__maps i {
+  margin-left: 12px;
+}
+
+header .navfood__maps p {
+  margin-left: 15px;
+}
+
 header .navfood__reservez {
   background-color: #f2f2f2;
   height: 260px;
@@ -1441,7 +1449,8 @@ header .fonct__boutuon .chois:hover {
 
 header .fonct__boutuon .chois .icon {
   color: #9356DC;
-  margin-left: 3px;
+  margin-left: 8px;
+  width: 50%;
 }
 
 @media screen and (min-width: 500px) {
@@ -1559,7 +1568,8 @@ header .fonct .chois2:hover {
 
 header .fonct .chois2 .icon2 {
   color: #9356DC;
-  margin-left: 3px;
+  margin-left: 7px;
+  width: 50%;
 }
 
 @media screen and (min-width: 500px) {
@@ -1677,7 +1687,7 @@ header .fonct__degu .chois3:hover {
 
 header .fonct__degu .chois3 .icon3 {
   color: #9356DC;
-  margin-left: 3px;
+  margin-left: 5px;
 }
 
 @media screen and (min-width: 500px) {
@@ -1698,6 +1708,46 @@ header .fonct__degu .chois3 .icon3 {
 @media screen and (min-width: 1200px) {
   header .fonct__degu .chois3 {
     width: 30%;
+  }
+}
+
+.navfood1__logo1 .logofod1 {
+  width: 50%;
+  margin-left: 70px;
+}
+
+@media screen and (min-width: 400px) {
+  .navfood1__logo1 .logofod1 {
+    width: 40%;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .navfood1__logo1 .logofod1 {
+    width: 30%;
+    margin-left: 180px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .navfood1__logo1 .logofod1 {
+    width: 20%;
+    margin-left: 200px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .navfood1__logo1 .logofod1 {
+    width: 15%;
+    margin-left: 350px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .navfood1__logo1 .logofod1 {
+    width: 12%;
+    margin-left: 400px;
   }
 }
 
@@ -1745,6 +1795,7 @@ header .fonct__degu .chois3 .icon3 {
 }
 
 .omyfooter__proposer h3 {
+  margin-left: 7px;
   color: white;
   font-family: 'Shrikhand', cursive;
   font-size: 30px;
@@ -1984,6 +2035,7 @@ header .fonct__degu .chois3 .icon3 {
   margin-right: 20px;
   margin-top: 20px;
   font-size: 20px;
+  margin-top: 7px;
 }
 
 .restaurant .restimgages .img1 .infoaceil1 .infoaceil2 .hart1 {
@@ -2007,7 +2059,7 @@ header .fonct__degu .chois3 .icon3 {
 }
 
 .restaurant .restimgages .img1 .infoaceil1 .palette {
-  margin-top: 3px;
+  margin-top: 9px;
 }
 
 .restaurant .restimgages .img1 .infoaceil1 .Méni {
@@ -2118,6 +2170,7 @@ header .fonct__degu .chois3 .icon3 {
 }
 
 .restaurant .restimgages .img2 .imgnot2 .infoaceil2 {
+  margin-top: 6px;
   margin-right: 20px;
   margin-top: 20px;
   font-size: 20px;
@@ -2181,7 +2234,7 @@ header .fonct__degu .chois3 .icon3 {
 }
 
 .restaurant .restimgages .img3 .francaise {
-  margin-top: -1px;
+  margin-top: 10px;
 }
 
 .restaurant .restimgages .img3 .cité {
@@ -2252,7 +2305,7 @@ header .fonct__degu .chois3 .icon3 {
 }
 
 .restaurant .restimgages .img4 .imgdélic2 .délice {
-  margin-top: -1px;
+  margin-top: 8px;
 }
 
 .restaurant .restimgages .img4 .imgdélic2 .foli {

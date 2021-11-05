@@ -96,8 +96,9 @@
             @include imghefA ;
                .infoaceil2{
                @include infoaceilA;
+              
+               margin-top: 7px;
                .hart1{
-             
                 margin-right: -8px;
                 opacity: 1;
                } 
@@ -116,7 +117,7 @@
                   
                }
               .palette{
-               margin-top: 3px;
+               margin-top: 9px;
               }
              .Méni{
                margin-top: -7px;
@@ -179,6 +180,7 @@
                 margin-top: -7px; 
             }
             .infoaceil2{
+                margin-top: 6px;
                @include infoaceilA;
                .hart1{
              
@@ -219,7 +221,8 @@
                 @include imghefA ;
             }
             .francaise{
-                margin-top: -1px;   
+                margin-top: 10px;   
+              
             }
             .cité{
                 margin-top: -7px;
@@ -261,7 +264,7 @@
         .imgdélic2{
             @include imghefA ;
             .délice{
-                margin-top: -1px; 
+                margin-top: 8px; 
             }
             .foli{
                 margin-top: -7px;  
