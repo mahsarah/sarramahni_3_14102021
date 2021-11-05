@@ -212,10 +212,10 @@ a {
 }
 
 .aboutRes .entre__tartare {
-  -webkit-transition: -webkit-transform  1s ease-in-out;
-  transition: -webkit-transform  1s ease-in-out;
-  transition: transform  1s ease-in-out;
-  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
+  -webkit-transition: -webkit-transform  2s ease-in-out;
+  transition: -webkit-transform  2s ease-in-out;
+  transition: transform  2s ease-in-out;
+  transition: transform  2s ease-in-out, -webkit-transform  2s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -227,8 +227,8 @@ a {
       grid-template-columns: 85% 15%;
   -webkit-animation: apparition 2s linear;
           animation: apparition 2s linear;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 0.30s;
+          animation-delay: 0.30s;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -312,10 +312,10 @@ a {
 }
 
 .aboutRes .entre__Veloute {
-  -webkit-transition: -webkit-transform  2s ease-in-out;
-  transition: -webkit-transform  2s ease-in-out;
-  transition: transform  2s ease-in-out;
-  transition: transform  2s ease-in-out, -webkit-transform  2s ease-in-out;
+  -webkit-transition: -webkit-transform  1s ease-in-out;
+  transition: -webkit-transform  1s ease-in-out;
+  transition: transform  1s ease-in-out;
+  transition: transform  1s ease-in-out, -webkit-transform  1s ease-in-out;
   -webkit-box-shadow: 5px 5px 5px #dbd2d2;
           box-shadow: 5px 5px 5px #dbd2d2;
   background-color: #fffbfb;
@@ -327,8 +327,8 @@ a {
       grid-template-columns: 85% 15%;
   -webkit-animation: apparition 2s linear;
           animation: apparition 2s linear;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  -webkit-animation-delay: 0.40s;
+          animation-delay: 0.40s;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -406,8 +406,8 @@ a {
       grid-template-columns: 85% 15%;
   -webkit-animation: apparition 2s linear;
           animation: apparition 2s linear;
-  -webkit-animation-delay: 0.12s;
-          animation-delay: 0.12s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -1202,7 +1202,7 @@ header .navfood__logo i {
 
 header .navfood__logo .logofod {
   width: 50%;
-  margin-left: 35px;
+  margin-left: 58px;
   margin-top: 10px;
 }
 

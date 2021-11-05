@@ -109,11 +109,11 @@
             border-bottom: 3px solid rgb(138, 236, 179) ;
         }
         &__tartare{
-            transition: transform  1s ease-in-out;
+            transition: transform  2s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
-            animation-delay: 0.4s;
+            animation-delay: 0.30s;
             overflow: hidden;
             white-space: nowrap;
             .acidpul{
@@ -172,11 +172,11 @@
         }
 
         &__Veloute{
-            transition: transform  2s ease-in-out;
+            transition: transform  1s ease-in-out;
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
-            animation-delay: 0.8s;
+            animation-delay: 0.40s;
             overflow: hidden;
             white-space: nowrap;
             .Velout1{
@@ -222,7 +222,7 @@
             @include tartareA;
             grid-template-columns: 85% 15%;
             animation: apparition 2s linear;
-            animation-delay: 0.12s;
+            animation-delay: 0.8s;
             overflow: hidden;
             white-space: nowrap;
             .soup1 {
@@ -605,7 +605,7 @@
         box-shadow:5px 5px 5px $boreder-color;
        @include flexbutton;
         width: 50%;
-    background-image: linear-gradient(to top,darken($violet-color,10%),darken($pink-color,10%));
+        background-image: linear-gradient(to top,darken($violet-color,10%),darken($pink-color,10%));
         height: 38px;
         border-radius: 15px;
         margin-left: 60px;
