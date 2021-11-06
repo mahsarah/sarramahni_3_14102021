@@ -122,7 +122,8 @@
                 
                 width: 100%;
                .titart{
-                
+                text-overflow: ellipsis;
+                overflow: hidden;
                 @include titarA;
                }
                p{
@@ -188,6 +189,8 @@
             .Velout1{
                  width: 100%;
                  .titVelout{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
                    @include titarA;  
                   }
                   p{
@@ -211,10 +214,10 @@
                }
     
                &:hover {
-                .elip{
+                 .elip{
                     text-overflow: ellipsis;
                     overflow: hidden;
-                }
+                 }
                     .Velout1 {
                         width: 90%;
                         .prix {
@@ -239,6 +242,8 @@
              
                 width: 100%;
                 .titsoupe {
+                    text-overflow: ellipsis;
+                    overflow: hidden;
                     @include titarA; 
                 }
                 p{
@@ -324,6 +329,8 @@
            
             .sainjac{
               .titrsanj {
+                text-overflow: ellipsis;
+                overflow: hidden; 
                 @include titarA;
               } 
               p{
@@ -373,6 +380,8 @@
             white-space: nowrap;
             .canard{
                 .titrcand{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
                     @include titarA;   
                 }
                 p{
@@ -424,6 +433,8 @@
             white-space: nowrap;
             .pegeonils{
                 .titrpeg{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
                     @include titarA;   
                 }
                 p{
@@ -509,6 +520,8 @@
            
             .violette{
                 .titrviolet{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
                     @include titarA;    
                 }
                 p{
@@ -559,6 +572,8 @@
             white-space: nowrap;
             .chocol{
                 .titrchoc{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
                     @include titarA; 
                 }
                 p{
@@ -606,6 +621,8 @@
             white-space: nowrap;
             .crostil{
                 .titrcros{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
                     @include titarA; 
                 }
                 p{

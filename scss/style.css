@@ -239,6 +239,8 @@ a {
 }
 
 .aboutRes .entre__tartare .acidpul .titart {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
@@ -345,6 +347,8 @@ a {
 }
 
 .aboutRes .entre__Veloute .Velout1 .titVelout {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
@@ -430,6 +434,8 @@ a {
 }
 
 .aboutRes .entre__soupe .soup1 .titsoupe {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
@@ -575,6 +581,8 @@ a {
 }
 
 .aboutRes .plats__coquille .sainjac .titrsanj {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
@@ -657,6 +665,8 @@ a {
 }
 
 .aboutRes .plats__magret .canard .titrcand {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
@@ -739,6 +749,8 @@ a {
 }
 
 .aboutRes .plats__pegeon .pegeonils .titrpeg {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
@@ -885,6 +897,8 @@ a {
 }
 
 .aboutRes .desser__petal .violette .titrviolet {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
@@ -965,6 +979,8 @@ a {
 }
 
 .aboutRes .desser__fondant .chocol .titrchoc {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
@@ -1045,6 +1061,8 @@ a {
 }
 
 .aboutRes .desser__mellfeulle .crostil .titrcros {
+  text-overflow: ellipsis;
+  overflow: hidden;
   width: 90%;
   margin-top: 6px;
   margin-left: 7px;
