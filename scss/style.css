@@ -75,7 +75,7 @@ a {
 .aboutRes__abouTitre h1 {
   font-family: 'Shrikhand', cursive;
   height: 60px;
-  margin-left: 5px;
+  margin-left: 15px;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -86,7 +86,7 @@ a {
 
 @media screen and (min-width: 400px) {
   .aboutRes__abouTitre h1 {
-    width: 55%;
+    width: 59%;
     margin-left: 40px;
   }
 }
@@ -99,14 +99,15 @@ a {
 
 @media screen and (min-width: 700px) {
   .aboutRes__abouTitre h1 {
-    width: 30%;
+    margin-left: 150px;
+    width: 35%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .aboutRes__abouTitre h1 {
-    width: 18%;
-    margin-left: 40px;
+    width: 20%;
+    margin-left: 200px;
   }
 }
 
@@ -244,6 +245,7 @@ a {
 }
 
 .aboutRes .entre__tartare .acidpul p {
+  text-overflow: ellipsis;
   margin-top: -15px;
   margin-left: 7px;
   font-size: 14px;
@@ -274,6 +276,11 @@ a {
   color: white;
   -webkit-transform: translateX(100px);
           transform: translateX(100px);
+}
+
+.aboutRes .entre__tartare:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .aboutRes .entre__tartare:hover .acidpul {
@@ -344,6 +351,7 @@ a {
 }
 
 .aboutRes .entre__Veloute .Velout1 p {
+  text-overflow: ellipsis;
   margin-top: -15px;
   margin-left: 7px;
   font-size: 14px;
@@ -374,6 +382,11 @@ a {
   color: white;
   -webkit-transform: translateX(100px);
           transform: translateX(100px);
+}
+
+.aboutRes .entre__Veloute:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .aboutRes .entre__Veloute:hover .Velout1 {
@@ -453,6 +466,11 @@ a {
   color: white;
   -webkit-transform: translateX(100px);
           transform: translateX(100px);
+}
+
+.aboutRes .entre__soupe:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .aboutRes .entre__soupe:hover .soup1 {
@@ -596,6 +614,11 @@ a {
           transform: translateX(100px);
 }
 
+.aboutRes .plats__coquille:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .aboutRes .plats__coquille:hover .sainjac {
   width: 90%;
 }
@@ -603,6 +626,7 @@ a {
 .aboutRes .plats__coquille:hover .sainjac .prix {
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
+  background-color: white;
 }
 
 .aboutRes .plats__coquille:hover .chek {
@@ -642,6 +666,7 @@ a {
   margin-top: -15px;
   margin-left: 7px;
   font-size: 14px;
+  text-overflow: ellipsis;
 }
 
 .aboutRes .plats__magret .canard .rev1 {
@@ -671,6 +696,11 @@ a {
           transform: translateX(100px);
 }
 
+.aboutRes .plats__magret:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .aboutRes .plats__magret:hover .canard {
   width: 90%;
 }
@@ -678,6 +708,7 @@ a {
 .aboutRes .plats__magret:hover .canard .prix {
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
+  width: 5%;
 }
 
 .aboutRes .plats__magret:hover .chek {
@@ -746,6 +777,11 @@ a {
           transform: translateX(100px);
 }
 
+.aboutRes .plats__pegeon:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .aboutRes .plats__pegeon:hover .pegeonils {
   width: 90%;
 }
@@ -753,6 +789,7 @@ a {
 .aboutRes .plats__pegeon:hover .pegeonils .prix {
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
+  width: 5%;
 }
 
 .aboutRes .plats__pegeon:hover .chek {
@@ -886,6 +923,11 @@ a {
           transform: translateX(100px);
 }
 
+.aboutRes .desser__petal:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .aboutRes .desser__petal:hover .violette {
   width: 90%;
 }
@@ -959,6 +1001,11 @@ a {
   color: white;
   -webkit-transform: translateX(100px);
           transform: translateX(100px);
+}
+
+.aboutRes .desser__fondant:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .aboutRes .desser__fondant:hover .chocol {
@@ -1036,6 +1083,11 @@ a {
           transform: translateX(100px);
 }
 
+.aboutRes .desser__mellfeulle:hover .elip {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .aboutRes .desser__mellfeulle:hover .crostil {
   width: 90%;
 }
@@ -1067,7 +1119,7 @@ a {
   background-image: linear-gradient(to top, #782cd3, #ff46cc);
   height: 38px;
   border-radius: 15px;
-  margin-left: 60px;
+  margin-left: 85px;
   margin-top: 25px;
 }
 

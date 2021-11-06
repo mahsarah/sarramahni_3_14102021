@@ -22,23 +22,24 @@
         h1{
             font-family: 'Shrikhand', cursive;
           height: 60px;
-           margin-left: 5px;
+           margin-left: 15px;
           display: grid;
           align-items: center;
           width: 75%;
           @include  tablette{
-            width: 55%;
+            width: 59%;
             margin-left: 40px; 
           }
           @include tablletp{
             width: 47%;   
           }
           @include tablletmpx{
-            width: 30%;   
+              margin-left: 150px;
+            width: 35%;   
           }
           @include ordinataurp{
-            width: 18%;
-            margin-left: 40px;
+            width: 20%;
+            margin-left: 200px;
           } 
         }
         .farher{
@@ -116,6 +117,7 @@
             animation-delay: 0.30s;
             overflow: hidden;
             white-space: nowrap;
+           
             .acidpul{
                 
                 width: 100%;
@@ -124,6 +126,7 @@
                 @include titarA;
                }
                p{
+                text-overflow: ellipsis;
                    @include  paragraph;  
                }
                .rev1{
@@ -141,7 +144,10 @@
           
            }
            &:hover {
-
+            .elip{
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
             .acidpul {
                 width: 90%;
                 .prix {
@@ -185,6 +191,7 @@
                    @include titarA;  
                   }
                   p{
+                    text-overflow: ellipsis;  
                     @include  paragraph;    
                   }
            
@@ -204,7 +211,10 @@
                }
     
                &:hover {
-    
+                .elip{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
                     .Velout1 {
                         width: 90%;
                         .prix {
@@ -232,7 +242,6 @@
                     @include titarA; 
                 }
                 p{
-                   
                     @include  paragraph;      
                 }
                 .rev{
@@ -251,7 +260,10 @@
            }
 
          &:hover {
-
+            .elip{
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
                 .soup1 {
                     width: 90%;
                     .prix {
@@ -309,6 +321,7 @@
             animation-delay: 0.14s;
             overflow: hidden;
             white-space: nowrap;
+           
             .sainjac{
               .titrsanj {
                 @include titarA;
@@ -320,6 +333,7 @@
               .rev1{
                 display: flex;
                 justify-content: space-between;
+               
                }
             }
             
@@ -333,11 +347,15 @@
               
             }
             &:hover {
-
+                .elip{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
                 .sainjac{
                     width: 90%;
                     .prix {
                         transform: translateX(-10px);
+                        background-color: white;
                     }
                 }
                .chek {
@@ -358,7 +376,9 @@
                     @include titarA;   
                 }
                 p{
-                    @include  paragraph;  
+                    @include  paragraph;
+                    text-overflow: ellipsis;
+                     
                 }
                 .rev1{
                     display: flex;
@@ -376,11 +396,15 @@
               
             }
             &:hover {
-
+                .elip{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
                 .canard{
                     width: 90%;
                     .prix {
                         transform: translateX(-10px);
+                        width: 5%;
                     }
                 }
                .chek {
@@ -403,7 +427,7 @@
                     @include titarA;   
                 }
                 p{
-                    @include  paragraph;  
+                    @include  paragraph; 
                 }
                 .rev1{
                     display: flex;
@@ -420,11 +444,16 @@
               
             } 
             &:hover {
-
+                .elip{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
                 .pegeonils{
                     width: 90%;
                     .prix{
                         transform: translateX(-10px);
+                        width: 5%;
+                       
                     }
                 }
                .chek {
@@ -483,7 +512,8 @@
                     @include titarA;    
                 }
                 p{
-                    @include  paragraph;    
+                    @include  paragraph;
+                      
                 }
                 .rev1{
                     display: flex;
@@ -500,11 +530,17 @@
               
             } 
             &:hover {
-
+                .elip{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+                
                 .violette{
+                    
                     width: 90%;
                     .prix{
                         transform: translateX(-10px);
+        
                     }
                 }
                .chek {
@@ -526,7 +562,7 @@
                     @include titarA; 
                 }
                 p{
-                    @include  paragraph;    
+                    @include  paragraph;  
                 }
                 .rev1{
                     display: flex;
@@ -543,11 +579,15 @@
               
             } 
             &:hover {
-
+                .elip{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
                 .chocol{
                     width: 90%;
                     .prix{
                         transform: translateX(-10px);
+                        
                     }
                 }
                .chek {
@@ -569,7 +609,7 @@
                     @include titarA; 
                 }
                 p{
-                    @include  paragraph;     
+                    @include  paragraph;  
                 }
                 .rev1{
                     display: flex;
@@ -586,10 +626,15 @@
               
             }
             &:hover{
+                .elip{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
                 .crostil{
                     width: 90%;
                     .prix{
                         transform: translateX(-10px);
+                       
                     }
                 }
                .chek {
@@ -608,7 +653,7 @@
         background-image: linear-gradient(to top,darken($violet-color,10%),darken($pink-color,10%));
         height: 38px;
         border-radius: 15px;
-        margin-left: 60px;
+        margin-left: 85px;
         margin-top: 25px;
         a{
         color: white;
